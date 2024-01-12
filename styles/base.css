@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&family=Overlock+SC&display=swap');
+
+body {
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    font-family: 'carlito', 'helvetica', 'sans-serif';
+
+}
+
+header {
+    background-color: #1D4D72;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: 'overlock sc', 'carlito', 'sans-serif';
+
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    grid-row: 2/3;
+    grid-column: 2;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* 
+nav ul li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+} */
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'carlito', 'sans-serif';
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin-bottom: 40px;
+}
+
+main {
+    max-width: 960px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    grid-row: 3/4;
+    grid-column: 2;
+}
+
+.card {
+    background-color: #e6e6ff;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #6f6f6f;
+}
+
+.card h3 {
+    background-color: #1D4D72;
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0;
+}
+
+.card ul li {
+    text-align: left;
+    font-size: 20px;
+}
+
+.card a:hover {
+    color: #333;
+}
+
+h2, h3 {
+    color: #333
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+footer {
+    background-color: #1D4D72;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    grid-row: 4/5;
+    grid-column: 2;
+}
+
+footer p {
+    margin: 0;
+}
+
+#currentYear, #lastModified {
+    color: #ff6600
+}
+
+
+@media screen and (max-width: 900px) {
+    header img {
+        width: 30%;
+        height: auto;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+    header {
+        grid-column: 1/4;
+    }
+    nav, footer {
+        grid-column: 1/4;
+    }
+    nav ul li a {
+        font-size: 1em;
+    }
+    main {
+        grid-column: 1/4;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
