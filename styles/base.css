@@ -6,7 +6,7 @@ body {
     padding: 0;
     text-align: center;
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 20% 60% 20%;
     font-family: 'carlito', 'helvetica', 'sans-serif';
 
 }
@@ -78,10 +78,11 @@ hr.solid {
 }
 
 main {
-    max-width: 960px;
+    max-width: 1600px;
     background-color: #fff;
     padding: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     grid-row: 3/4;
     grid-column: 2;
 }
@@ -106,6 +107,10 @@ main {
 .card ul li {
     text-align: left;
     font-size: 20px;
+}
+
+.card p {
+    font-size: 18px;
 }
 
 .card a:hover {
