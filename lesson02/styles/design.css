@@ -20,8 +20,8 @@
     padding: 1rem;
     background-color: rgb(230, 243, 254);
     font-weight: 700;
-       word-break: break-word;
-      text-align: center;
+    word-break: break-word;
+    text-align: center;
   }
   
   h1 {
@@ -36,7 +36,7 @@
   }
   
   section {
-      padding: 1rem;
+    padding: 1rem;
   }
   
   h2 {
