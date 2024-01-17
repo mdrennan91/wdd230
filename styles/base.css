@@ -89,6 +89,7 @@ main {
     margin-bottom: 20px;
     border-radius: 3px;
     border: 1px solid #6f6f6f;
+    box-shadow: 4px 4px 8px 0;
 }
 
 .card h3 {
