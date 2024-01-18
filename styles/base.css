@@ -1,6 +1,12 @@
 @import url('styles/normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Carlito&family=Overlock+SC&display=swap');
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     color: #333;
     margin: 0;
