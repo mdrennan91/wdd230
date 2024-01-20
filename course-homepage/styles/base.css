@@ -13,16 +13,16 @@ body {
     padding: 0;
     text-align: center;
     display: grid;
-    grid-template-columns: 15% 70% 15%;
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: auto;
     font-family: 'carlito', 'helvetica', 'sans-serif';
 }
 
 header {
-    background-color: #1D4D72;
+    background-color: #153954;
     color: white;
     text-align: center;
     padding: 20px 0;
-    grid-row: 1;
     grid-column: 2;
     display: flex;
     align-items: center;
@@ -38,40 +38,31 @@ header img {
 
 header h1 {
     margin: 0;
-    font-size: 3em;
+    /* font-size: 3.5em; */
     font-weight: 100;
     font-family: 'overlock sc', 'carlito', 'sans-serif';
 
 }
 
-nav {
-    background-color: black;
+.navbar {
     width: 100%;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    grid-row: 2/3;
-    grid-column: 2;
-    font-size: 20px;
+    background-color: black;
+    overflow: auto;
 }
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li a {
-    display: block;
-    color: white;
+  
+.navbar a {
+    float: left;
     padding: 10px;
+    color: white;
     text-decoration: none;
-    font-family: 'carlito', 'sans-serif';
+    font-size: 1.5em;
+    width: 20%; 
+    text-align: center; 
+    box-sizing: border-box;
 }
-
-nav ul li a:hover {
-    background-color: #333;
-    color: #fff;
+  
+.navbar a:hover {
+    background-color: #555;
 }
 
 hr.solid {
@@ -85,7 +76,6 @@ main {
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    grid-row: 3/4;
     grid-column: 2;
 }
 
@@ -98,7 +88,7 @@ main {
 }
 
 .card h3 {
-    background-color: #1D4D72;
+    background-color: #153954;
     color: white;
     padding: 10px;
     margin-top: 0;
@@ -130,7 +120,6 @@ h2, h3 {
 }
 
 h2 {
-    font-size: 30px;
     font-weight: 500;
 }
 
@@ -140,11 +129,10 @@ h3 {
 }
 
 footer {
-    background-color: #1D4D72;
+    background-color: #153954;
     color: white;
     text-align: center;
     padding: 20px 0;
-    grid-row: 4/5;
     grid-column: 2;
 }
 
@@ -155,50 +143,4 @@ footer p {
 
 #currentYear, #lastModified {
     color: #ff6600
-}
-
-
-
-@media screen and (max-width: 600px) {
-    header img {
-        max-width: 25%;
-        height: auto;
-    }
-
-    header {
-        padding: 10px;
-    }
-
-    header h1 {
-        font-size: 1.5em;
-    }
-
-    header, nav, footer {
-        grid-column: 1 / -1;
-    }
-
-    nav ul li a {
-        font-size: 18px;
-    }
-
-    body {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    main {
-        grid-column: 1/4;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    .card hr {
-        margin: 0;
-    }
 }
