@@ -38,7 +38,6 @@ header img {
 
 header h1 {
     margin: 0;
-    /* font-size: 3.5em; */
     font-weight: 100;
     font-family: 'overlock sc', 'carlito', 'sans-serif';
 
@@ -141,15 +140,36 @@ footer {
     background-color: #153954;
     color: white;
     text-align: center;
-    padding: 10px 0;
-    grid-column: 2;
+    padding: 20px 0;
 }
 
-footer p {
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright {
+    font-size: 24px;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+}
+
+#currentYear {
+    color: #ff6600
+}
+
+#lastModified {
+    color: #ff6600;
     margin: 0;
     font-size: 18px;
+    margin-top: 10px;
 }
-
-#currentYear, #lastModified {
-    color: #ff6600
+.flag-image {
+    width: auto; 
+    height: 28px; 
+    margin-left: 10px;
+    margin-top: 2px;
+    object-fit: contain;
 }

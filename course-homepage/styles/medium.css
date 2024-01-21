@@ -39,6 +39,11 @@
     .navbar a {
         font-size: 1.3em;
     }
+
+    #copyright {
+        font-size: 22px;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 743px) {
