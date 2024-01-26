@@ -12,7 +12,7 @@
         font-size: 2em;
     }
 
-    .navbar a { 
+    /* .navbar a { 
         display: none;
     }
     
@@ -22,6 +22,39 @@
         width: 100%;
         text-align: center;
         font-size: 1.2em;
+    } */
+
+    .hamburger {
+        display: block;
+        font-size: 1.5em;
+        user-select: none;
+        float: left;
+        padding: 10px;
+        color: white;
+    }
+
+    .navbar a {
+        display: none;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .navbar.open .hamburger::after {
+        content: '×'; 
+        font-size: 1.5em;
+        line-height: normal;
+        display: block;
+    }
+
+    .navbar.open a {
+        display: block;
+        opacity: 1;
+    }
+
+    .navbar.open .hamburger {
+        padding: 0;
+        padding-left: 15px;
     }
 
     body {
