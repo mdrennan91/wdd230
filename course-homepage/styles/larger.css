@@ -58,4 +58,14 @@
     h3 {
         font-size: 20px;
     }
+
+    .google-map {
+        grid-column: 1 / -1;
+        /* height: auto; */
+        grid-row: 3;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 4px 4px 8px 0;
+    }
 }

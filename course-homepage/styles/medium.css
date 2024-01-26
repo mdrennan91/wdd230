@@ -36,6 +36,14 @@
         width: 15%
     }
 
+    .google-map {
+        display: block;
+        grid-column: 2 / 3;
+        width: 100%;
+        box-shadow: 4px 4px 8px 0;
+        margin-top: 20px;
+    }
+
     .navbar a {
         font-size: 1.3em;
     }
