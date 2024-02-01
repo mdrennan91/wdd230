@@ -39,9 +39,9 @@ header h1 {
     margin-left: 10px;
 }
 
-.social img:hover {
+/* .social img:hover {
     scale: 1.1;
-}
+} */
 
 .logo {
     width: 150px;
@@ -51,7 +51,7 @@ header h1 {
 .logo:hover {
     width: 150px;
     padding-left: 30px;
-    scale: 1.1;
+    /* scale: 1.1; */
 }
 
 #logo_link {
@@ -142,12 +142,12 @@ nav {
 .join:hover {
     background-color: #275656;
     color: #FCEFE4;
-    scale: 1.1;
+    /* scale: 1.1; */
 }
 
 main section {
     text-align: center;
-    font: 'work sans';
+    /* font: 'work sans'; */
 }
 
 .home-grid {
