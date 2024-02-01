@@ -2,23 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Work+Sans&display=swap');
 
 :root {
-  --primary-color: #0C2950  ;
-  --secondary-color: #1B70BA ;
-  --accent1-color: #F67D0B;
-  --accent2-color: #F46109;
+  --primary-color: #5C412C;
+  --secondary-color: #17333B;
+  --accent1-color: #F1B75A;
+  --accent2-color: #265656;
 
   --heading-font: "Raleway";
   --paragraph-font: Work Sans, Helvetica, sans-serif;
 
-  --headline-color-on-white: #0C2950;  /* headlines on a white background */ 
-  --headline-color-on-color: #ffffff; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #0C2950; /* paragraph text on a white background */ 
+  --headline-color-on-white: #17333B;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #17333B; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #0C2950  ;
+  --paragraph-background-color: #17333B  ;
   --nav-link-color: #E6E6E9;
-  --nav-background-color: #0C2950;
-  --nav-hover-link-color: #F67D0B;
-  --nav-hover-background-color: #1B70BA;
+  --nav-background-color: #17333B;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #947641;
 }
 
 
