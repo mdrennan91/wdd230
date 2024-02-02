@@ -104,7 +104,7 @@ nav {
 }
   
 .navbar a {
-    padding: 10px;
+    padding: 15px;
     color: white;
     text-decoration: none;
     font-size: 1.2em;
@@ -116,6 +116,10 @@ nav {
 .navbar a:hover {
     background-color: #947641;
     color: white;
+}
+
+.hamburger {
+    display: none;
 }
 
 #hero-img {
@@ -141,26 +145,29 @@ nav {
 }
 
 .join {
-    font-size: 18px;
+    font-size: 1.3em;
     background-color: #17333b;
-    color: #FCEFE3;
+    color: white;
     text-decoration: none;
     padding: 15px 30px;
-    margin-top: 50px;
     border-radius: 5px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8);
 }
 
 .button-box {
-    position: absolute; 
-    width: 100%; 
-    bottom: 100px;
-    z-index: 10; 
-    left: 42%;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    display: flex;
+    justify-content: center; 
+    z-index: 10;
+    margin: auto; 
 }
 
 .join:hover {
     background-color: #275656;
     color: #FCEFE4;
+    transform: scale(1.1);
 }
 
 main section {

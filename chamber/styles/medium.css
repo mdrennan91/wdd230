@@ -1,0 +1,181 @@
+@media screen and (max-width: 600px) {
+    header img {
+        max-width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    img.logo {
+        padding: 0;
+        align-self: center;
+    }
+
+    #logo_link {
+        padding-top: 0;
+    }
+
+    .logo:hover {
+        transform: none;
+        padding-left: 0;
+    }
+
+    header {
+        padding: 20px;
+        grid-template-columns: 75px auto auto;
+    }
+
+    header h1 {
+        font-size: 1em;
+        padding: 0;
+    }
+    
+    header h3 {
+        font-size: 1em;
+        padding: 0;
+    }
+
+    .header-titles {
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    .social img {
+        max-width: 40px; 
+        margin-left: 5px;
+    }
+
+    .social {
+        padding: 0;
+    }
+
+    .social img:hover {
+        transform: none;
+    }
+
+    .button-box {
+        left: 0;
+        right: 0;
+        bottom: 100px;
+    }
+
+    .join {
+        font-size: 1em;
+    }
+
+    body {
+        display: block;
+        grid-template-columns: 1fr;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 1.5em;
+        user-select: none;
+        float: left;
+        padding: 10px;
+        color: white;
+    }
+
+    .navbar a {
+        display: none;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .navbar.open .hamburger::after {
+        content: '×'; 
+        font-size: 1.5em;
+        line-height: normal;
+        display: block;
+    }
+
+    .navbar.open a {
+        display: block;
+        opacity: 1;
+    }
+
+    .navbar.open .hamburger {
+        padding: 0;
+        padding-left: 15px;
+    }
+
+
+    .home-grid, .card, .card1, .card2, .card3, .card4 {
+        grid-template-columns: 1fr;
+        grid-column: auto;
+        grid-row: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .home-grid {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .card, .card1, .card2, .card3, .card4 {
+        grid-column: 1;
+    }
+
+    .card h3, .card1 h3, .card2 h3, .card3 h3, .card4 h3 {
+        font-size: 20px;
+    }
+
+    .card p, .card1 p, .card2 p, .card3 p, .card4 p {
+        font-size: 18px;
+    }
+
+    .footer-top, .footer-bottom, .logo-address-group, .contact-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        font-size: 20px; 
+    }
+
+    .logo-address-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .chamber-address {
+        text-align: left;
+        margin: 0;
+    }
+
+    footer p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-content, #copyright, #lastModified {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #copyright, #lastModified {
+        font-size: 20px;
+        display: block;
+    }
+
+    #lastModified {
+        margin-top: 10px;
+    }
+    footer span {
+        margin-top: 10px;
+    }
+}
