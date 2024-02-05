@@ -410,9 +410,8 @@ footer p {
 }
 
 .dark-mode-label {
-    color: #FCEFE3; 
+    color: #BA9352; 
     margin-right: 10px; 
-    background-color: #BA9352;
     padding: 5px 10px; 
     border-radius: 5px; 
     display: block; 
@@ -460,11 +459,7 @@ footer p {
 input:checked + .slider {
     background-color: #222222;
 }
-  
-input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-}
-  
+
 input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
@@ -520,4 +515,8 @@ input:checked + .slider:before {
 
 .dark-mode .navbar a {
     color: #222222;
+}
+
+.dark-mode #hero-img {
+    opacity: 70%;
 }
