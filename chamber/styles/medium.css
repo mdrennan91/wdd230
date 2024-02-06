@@ -82,6 +82,10 @@
         color: #222222;
     }
 
+    .dark-mode .hamburger {
+        color: #ddd;
+    }
+
     .navbar a {
         display: none;
         width: 100%;
