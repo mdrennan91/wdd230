@@ -342,7 +342,8 @@ footer p {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
-    border-radius: 5px; 
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8); 
 }
 
 .dark-mode-label {
@@ -451,6 +452,10 @@ input:checked + .slider:before {
 
 .dark-mode .navbar a {
     color: #222222;
+}
+
+.dark-mode .navbar a:hover {
+    color: #ddd;
 }
 
 .dark-mode #hero-img {
