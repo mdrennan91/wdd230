@@ -59,7 +59,7 @@
 
     .join {
         font-size: 18px;
-        background-color: rgba(0, 0, 0, 0.8);
+        /* background-color: rgba(0, 0, 0, 0.8); */
         color: #BA9352;
     }
 
@@ -67,7 +67,7 @@
         padding-top: 0;
         top: 20px;
         right: 5px;
-        background-color: rgba(0, 0, 0, 0.8);
+        /* background-color: rgba(0, 0, 0, 0.8); */
     }
 
     .dark-mode-label {
@@ -193,7 +193,7 @@
         margin-top: 10px;
     }
 
-    .dark-mode .join {
+    /* .dark-mode .join {
         background-color: rgba(0, 0, 0, 0.8);
-    }
+    } */
 }

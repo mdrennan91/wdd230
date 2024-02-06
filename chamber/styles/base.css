@@ -338,7 +338,7 @@ footer p {
     top: 50px; 
     right: 20px; 
     z-index: 10;
-    background-color: #222222;
+    background-color: #17333B;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -455,4 +455,8 @@ input:checked + .slider:before {
 
 .dark-mode #hero-img {
     opacity: 70%;
+}
+
+.dark-mode .switch-container {
+    background-color: #222222;
 }
