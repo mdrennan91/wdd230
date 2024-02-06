@@ -108,7 +108,7 @@ nav {
     width: 25%; 
     text-align: center; 
     box-sizing: border-box;
-    font-weight: bold;
+    font-weight: 600;
 }
   
 .navbar a:hover {
@@ -442,14 +442,15 @@ input:checked + .slider:before {
 }
 
 .dark-mode .card h3,
-.dark-mode .card1 h3{
+.dark-mode .card1 h3,
+.dark-mode .card2 h3,
+.dark-mode .card4 h3 {
     color: #222222;
     background-color: #BA9352;
 }
 
-.dark-mode .card2 h3,
-.dark-mode .card3 h3,
-.dark-mode .card4 h3 {
+
+.dark-mode .card3 h3 {
     color: #BA9352;
     background-color: #17333b;
 }
@@ -465,16 +466,16 @@ input:checked + .slider:before {
 }
 
 .dark-mode .navbar a {
-    color: #ddd;
+    color: #222222;
 }
 
 .dark-mode .navbar a:hover {
-    color: #333;
-    background-color: #BA9352;
+    color: #EEEFE3;
+    background-color: #193737;
 }
 
 .dark-mode .navbar {
-    background-color: #17333b;
+    background-color: #BA9352;
 }
 
 .dark-mode #hero-img {
