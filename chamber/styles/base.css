@@ -87,35 +87,32 @@ body {
 }
 
 nav {
-    display: flex;
     justify-content: space-around;
     margin: 0;
     padding: 0;
     grid-column: 2;
-    grid-row: 2;
-    z-index: 1;
 }
 
 .navbar {
-    display: flex;
     width: 100%;
     background-color: #BA9352;
     overflow: auto;
-    justify-content: center;
 }
   
 .navbar a {
+    float: left;
     padding: 15px;
     color: #333333;
     text-decoration: none;
     font-size: 1.2em;
-    width: 20%; 
+    width: 25%; 
     text-align: center; 
     box-sizing: border-box;
+    font-weight: bold;
 }
   
 .navbar a:hover {
-    background-color: #947641;
+    background-color: #866b3d;
     color: white;
 }
 
@@ -341,7 +338,7 @@ footer p {
     top: 50px; 
     right: 20px; 
     z-index: 10;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: #222222;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -396,7 +393,7 @@ footer p {
 }
   
 input:checked + .slider {
-    background-color: #222222;
+    background-color: #193737;
 }
 
 input:checked + .slider:before {

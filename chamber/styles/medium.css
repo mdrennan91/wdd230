@@ -53,13 +53,27 @@
     }
 
     .button-box {
-        left: 0;
-        right: 0;
-        bottom: 100px;
+        left: 5px;
+        top: 20px;
     }
 
     .join {
-        font-size: 1em;
+        font-size: 18px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #BA9352;
+    }
+
+    .switch-container {
+        padding-top: 0;
+        top: 20px;
+        right: 5px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .dark-mode-label {
+        font-size: 18px;
+        margin-bottom: 0;
+        font-weight: 200;
     }
 
     body {
@@ -69,18 +83,17 @@
 
     .hamburger {
         display: block;
-        font-size: 1.5em;
+        font-size: 1.1em;
         user-select: none;
-        float: left;
         padding: 10px;
-        color: white;
+        color: #222222;
     }
 
     .navbar a {
         display: none;
         width: 100%;
         text-align: center;
-        font-size: 1.2em;
+        font-size: 20px;
     }
 
     .navbar.open .hamburger::after {
@@ -178,5 +191,9 @@
     }
     footer span {
         margin-top: 10px;
+    }
+
+    .dark-mode .join {
+        background-color: rgba(0, 0, 0, 0.8);
     }
 }
