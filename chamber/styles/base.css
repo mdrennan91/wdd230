@@ -197,7 +197,6 @@ main section {
 .card h3,
 .card1 h3,
 .card2 h3,
-.card3 h3,
 .card4 h3 {
     background-color: #17333b;
     color: #BA9352;
@@ -207,6 +206,17 @@ main section {
     box-sizing: border-box;
     border-radius: 3px 3px 0;
 }
+
+.card3 h3 {
+    background-color: #BA9352;
+    color: #333;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0;
+}
+
 
 .card p,
 .card1 p,
@@ -428,16 +438,21 @@ input:checked + .slider:before {
 .dark-mode .card3,
 .dark-mode .card4 {
     background-color: #444; 
-    color: #ddd; 
+    color: #ddd;
+    box-shadow: 4px 4px 8px 0 rgba(50, 50, 50, 0.8); 
 }
 
 .dark-mode .card h3,
-.dark-mode .card1 h3,
+.dark-mode .card1 h3{
+    color: #222222;
+    background-color: #BA9352;
+}
+
 .dark-mode .card2 h3,
 .dark-mode .card3 h3,
 .dark-mode .card4 h3 {
-    color: #222222;
-    background-color: #BA9352;
+    color: #BA9352;
+    background-color: #17333b;
 }
 
 .dark-mode .join {
@@ -451,11 +466,16 @@ input:checked + .slider:before {
 }
 
 .dark-mode .navbar a {
-    color: #222222;
+    color: #ddd;
 }
 
 .dark-mode .navbar a:hover {
-    color: #ddd;
+    color: #333;
+    background-color: #BA9352;
+}
+
+.dark-mode .navbar {
+    background-color: #17333b;
 }
 
 .dark-mode #hero-img {
