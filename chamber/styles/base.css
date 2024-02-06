@@ -439,7 +439,7 @@ input:checked + .slider:before {
 .dark-mode .card4 {
     background-color: #444; 
     color: #ddd;
-    box-shadow: 4px 4px 8px 0 rgba(50, 50, 50, 0.8); 
+    box-shadow: 4px 4px 8px 0 rgba(135, 135, 135, 0.8); 
 }
 
 .dark-mode .card h3,
