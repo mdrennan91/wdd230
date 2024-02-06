@@ -59,7 +59,6 @@
 
     .join {
         font-size: 18px;
-        /* background-color: rgba(0, 0, 0, 0.8); */
         color: #BA9352;
     }
 
@@ -67,18 +66,12 @@
         padding-top: 0;
         top: 20px;
         right: 5px;
-        /* background-color: rgba(0, 0, 0, 0.8); */
     }
 
     .dark-mode-label {
         font-size: 18px;
         margin-bottom: 0;
         font-weight: 200;
-    }
-
-    body {
-        display: block;
-        grid-template-columns: 1fr;
     }
 
     .hamburger {
@@ -113,7 +106,6 @@
         padding-left: 15px;
     }
 
-
     .home-grid, .card, .card1, .card2, .card3, .card4 {
         grid-template-columns: 1fr;
         grid-column: auto;
@@ -126,10 +118,6 @@
         padding-top: 20px;
         padding-bottom: 20px;
         margin: 0px 5px;
-    }
-
-    .card, .card1, .card2, .card3, .card4 {
-        grid-column: 1;
     }
 
     .card h3, .card1 h3, .card2 h3, .card3 h3, .card4 h3 {
@@ -192,8 +180,4 @@
     footer span {
         margin-top: 10px;
     }
-
-    /* .dark-mode .join {
-        background-color: rgba(0, 0, 0, 0.8);
-    } */
 }

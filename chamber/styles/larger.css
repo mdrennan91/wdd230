@@ -14,6 +14,35 @@
     footer p {
         font-size: 18px;
     }
+
+    body {
+        display: block;
+        grid-template-columns: 1fr;
+    }
+
+    .home-grid {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0px 5px;
+    }
+
+    .home-grid, .card, .card1, .card2, .card3, .card4 {
+        grid-template-columns: 1fr;
+        grid-column: auto;
+        grid-row: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .home-grid {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0px 5px;
+    }
+
+    .card, .card1, .card2, .card3, .card4 {
+        grid-column: 1;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -97,6 +126,10 @@
     .home-grid {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    .join {
+        font-size: 18px;
     }
 }
 
