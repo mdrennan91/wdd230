@@ -2,14 +2,17 @@
     header img {
         max-width: 25%;
         height: auto;
+        margin: 0;
     }
 
     header {
         padding: 10px;
+        display: block;
     }
 
     header h1 {
         font-size: 2em;
+        text-align: center;
     }
 
     /* .navbar a { 
@@ -40,6 +43,11 @@
         font-size: 1.2em;
     }
 
+    main {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
     .navbar.open .hamburger::after {
         content: '×'; 
         font-size: 1.5em;
@@ -50,11 +58,20 @@
     .navbar.open a {
         display: block;
         opacity: 1;
+        border-bottom: 1px solid #222;
     }
 
     .navbar.open .hamburger {
         padding: 0;
         padding-left: 15px;
+    }
+
+    .navbar.open a:first-of-type {
+        border-top: 1px solid #2c2c2c; 
+    }
+
+    .navbar.open a:last-of-type {
+        border-bottom: none;
     }
 
     body {
@@ -102,5 +119,4 @@
     footer p {
         font-size: 16px;
     }
-
 }
