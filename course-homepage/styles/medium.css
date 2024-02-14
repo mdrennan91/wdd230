@@ -5,15 +5,44 @@
 
     main {
         display: grid;
-        grid-template-columns: 15% auto 15%;
+        grid-template-columns: 5% auto 5%;
         grid-template-rows: auto;
         padding: 0;
-        margin: 40px 0;
+        margin: 0;
+    }
+
+    .hero {
+        width: 100%;
+        grid-column: 1 / 4;
+        grid-row: 1;  
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .hero-container {
+        position: absolute;
+        background: radial-gradient(#fff, #525252);
+	    border: 1px solid rgba(0,0,0,.75);
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.75;
+        padding: 10px 10px;
+        border-radius: 5px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .hero-container h1 {
+        font-size: 20px;
     }
 
     h1 {
         font-size: 2.5em;
     }
+
     h2 {
         font-size: 2em;
         grid-column: 2 / 3;
@@ -42,6 +71,7 @@
         width: 100%;
         box-shadow: 4px 4px 8px 0;
         margin-top: 20px;
+        margin-bottom: 35px;
     }
 
     .navbar a {

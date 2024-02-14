@@ -1,7 +1,7 @@
 @import url('styles/normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Carlito&family=Overlock+SC&display=swap');
 
-html, body {
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -47,6 +47,7 @@ nav {
     margin: 0;
     padding: 0;
 }
+
 .navbar {
     width: 100%;
     background-color: black;
@@ -58,7 +59,7 @@ nav {
     padding: 10px;
     color: white;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.7em;
     width: 20%; 
     text-align: center; 
     box-sizing: border-box;
@@ -75,6 +76,7 @@ nav {
 hr.solid {
     border-top: 3px solid #bbb;
     margin-bottom: 40px;
+    grid-row: 3;
 }
 
 main {
@@ -85,6 +87,13 @@ main {
     margin-bottom: 5px;
     grid-column: 2;
 }
+
+/* .hero {
+    width: 100%;
+    height: auto;
+    grid-column: 1 / -1;
+    grid-row: 1;  
+} */
 
 .card {
     background-color: #e6e6ff;
@@ -122,9 +131,10 @@ main {
     color: #954E31;
 }
 
-.card hr {
+/* .hr {
     margin: 0;
-}
+    grid-row: 2;
+} */
 
 h2, h3 {
     color: #333
