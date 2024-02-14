@@ -120,8 +120,14 @@ nav {
     display: none;
 }
 
-#hero-img {
+/* #hero-img {
     width: 100%;
+    grid-column: 1 / 11;
+} */
+
+#hero-box img {
+    width: 100%;
+    height: auto;
     grid-column: 1 / 11;
 }
 
