@@ -54,7 +54,7 @@
 
     .hero-container {
         position: absolute;
-        background: radial-gradient(#fff, #525252);
+        background: radial-gradient(#fff, #778AAA);
 	    border: 1px solid rgba(0,0,0,.75);
         box-shadow: 0 0 3rem #fff;
         padding: 5px 5px;
@@ -65,7 +65,8 @@
     }
 
     .hero-container h1 {
-        font-size: 16px;
+        font-family: 'Great Vibes', 'carlito', 'sans-serif';
+        font-size: 1.2em;
     }
 
     .navbar.open .hamburger::after {

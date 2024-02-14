@@ -47,7 +47,7 @@
 
     .hero-container {
         position: absolute;
-        background: radial-gradient(#fff, #525252);
+        background: radial-gradient(#fff, #778AAA);
 	    border: 1px solid rgba(0,0,0,.75);
         box-shadow: 0 0 3rem #fff;
         opacity: 0.75;
@@ -58,7 +58,8 @@
     }
 
     .hero h1 {
-        font-family: 'overlock sc', 'carlito', 'sans-serif';
+        font-family: 'Great Vibes', 'carlito', 'sans-serif';
+        font-size: 2em;
     }
 
     hr.solid {
