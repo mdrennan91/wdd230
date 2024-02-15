@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let windChill = 'N/A';
 
         if (temperature <= 50 && windSpeed > 3) {
-            windChill = calculateWindChill(temperature, windSpeed).toFixed(2) + '°F';
+            windChill = Math.round(calculateWindChill(temperature, windSpeed)) + '°F';
         }
 
         document.getElementById('windChillValue').textContent = windChill;

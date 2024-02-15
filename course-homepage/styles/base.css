@@ -127,6 +127,7 @@ main {
 .card p {
     font-size: 20px;
     font-family: 'carlito';
+    margin-bottom: 10px;
 }
 
 .card a:hover {
