@@ -1,5 +1,10 @@
+body {
+    background-color: #333;
+}
+
 h1 {
     text-align: center;
+    color: white;
 }
 
 main {
@@ -19,6 +24,24 @@ img {
 
 footer {
     text-align: center;
+}
+
+#copyright {
+    font-size: 24px;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+}
+
+#currentYear {
+    color: #ffffff
+}
+
+#lastModified {
+    color: #ffffff;
+    margin: 0;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 
