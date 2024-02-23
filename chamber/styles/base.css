@@ -387,7 +387,6 @@ footer p {
     grid-column: 5 / 11; 
     width: 970px;
     height: auto;
-    box-shadow: 4px 4px 8px 0;
 }
 
 
@@ -537,6 +536,10 @@ input:checked + .slider:before {
 
 .dark-mode .discover-grid {
     background-color: #2C2C2C;
+}
+
+.dark-mode .photo-gallery img {
+    border: 5px solid #BA9352;
 }
 
 
