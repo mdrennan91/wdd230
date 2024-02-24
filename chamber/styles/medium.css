@@ -90,7 +90,14 @@
     }
 
     .navbar a:hover {
-        background-color: #17333b;
+        background-color: #BA9352;
+        color: #333333;
+    }
+
+    .photo-gallery img:hover {
+        transition: none;
+        opacity: 1;
+        transform: scale(1);
     }
 
     .navbar.open .hamburger::after {
@@ -119,25 +126,84 @@
         border-bottom: none;
     }
 
-    .home-grid, .card, .card1, .card2, .card3, .card4 {
+    .home-grid, 
+    .card, 
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4, 
+    .card5, 
+    .card6, 
+    .card7,
+    .card8 {
         grid-template-columns: 1fr;
         grid-column: auto;
         grid-row: auto;
         margin-top: 0;
         margin-bottom: 0;
     }
+
+    .card5, .card6, .card7, .card8 {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     
+    .card5 h3, 
+    .card6 h3, 
+    .card7 h3,
+    .card8 h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
     .home-grid {
         padding-top: 20px;
         padding-bottom: 20px;
         margin: 0px 5px;
     }
 
-    .card h3, .card1 h3, .card2 h3, .card3 h3, .card4 h3 {
+    .discover-grid {
+        display: block;
+    }
+
+    .photo-gallery, .sidebar {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .photo-gallery img {
+       margin: 0;
+       display: block;
+    }
+
+    .photo-gallery h3 {
+        font-size: 22px;
+    }
+
+    .card h3, 
+    .card1 h3, 
+    .card2 h3, 
+    .card3 h3, 
+    .card4 h3, 
+    .card5 h3, 
+    .card6 h3, 
+    .card7 h3,
+    .card8 h3 {
         font-size: 20px;
     }
 
-    .card p, .card1 p, .card2 p, .card3 p, .card4 p {
+    .card p,
+    .card1 p, 
+    .card2 p, 
+    .card3 p, 
+    .card4 p, 
+    .card5 p, 
+    .card6 p, 
+    .card7 p,
+    .card8 p {
         font-size: 18px;
     }
 
@@ -192,5 +258,10 @@
     }
     footer span {
         margin-top: 10px;
+    }
+
+    .dark-mode .navbar a:hover {
+        color: #222222;
+        background-color: #BA9352;
     }
 }
