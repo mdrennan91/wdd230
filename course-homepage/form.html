@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitchel Drennan - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="Mitchel Drennan">
+    <meta name="description" content="WDD 230 - Web Frontend Development course assignment portal designed by Mitchel Drennan. This portal serves as a central hub for accessing course assignments and activities.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="WDD 230 - Course Assignment Portal">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://raw.githubusercontent.com/mdrennan91/wdd230/main/course-homepage/images/og-image.jpg">
+    <meta property="og:image:alt" content="Snow covered mountains">
+    <meta property="og:url" content="https://mdrennan91.github.io/wdd230/index.html">
+</head>
+<body>
+    <header>
+        <img src="images/mitchel_img.webp" alt="Mitchel Drennan">
+        <h1>Mitchel Drennan</h1>
+    </header>
+    <nav>
+        <div class="navbar">
+            <span class="hamburger">☰</span>
+            <a class="active" href="#">Home</a>
+            <a href="https://mdrennan91.github.io/wdd230/lesson03/chamber-site-plan.html" target="_blank">Site Plan</a>
+            <a href="https://mdrennan91.github.io/wdd230/chamber/index.html" target="_blank">Chamber</a>
+            <a href="https://www.byui.edu" target="_blank">BYU-Idaho</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/5?lang=eng&id=p44#p44" target="_blank">Scripture</a>
+        </div>
+    </nav>
+    <main>
+        <h1>Sign-Up Today</h1>
+            <form method="get" action="record.html" id="contactForm">
+                <label>Username*<input type="text" id="username" name="username" required></label>
+            
+                <label>Password*<input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" required title="Password must be at least 8 characters long and contain only letters and numbers."></label>
+           
+                <label>Confirm Password*<input type="password" id="passwordConfirm" name="passwordConfirm" required></label>
+           
+                <label>Email*<input type="email" id="email" name="email" placeholder="email@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required title="Please enter a valid email address from the byui.edu domain."></label>
+    
+                <label>Page Rating<input type="number" name="rating"></label>
+
+                <button type="submit">Complete Sign-Up</button>
+            </form>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <span id="copyright">&copy; <span id="currentYear"></span>&nbsp;Mitchel Drennan | Washington, US</span>
+            <img src="images/country-flag.webp" alt="US flag" class="flag-image">
+        </div>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/visitcounter.js"></script>
+    <script>
+        const form = document.getElementById('contactForm');
+        const password = document.getElementById('password');
+        const passwordConfirm = document.getElementById('passwordConfirm');
+
+        form.addEventListener('submit', function (event) {
+            if (password.value !== passwordConfirm.value) {
+                alert("Passwords do not match.");
+                password.value = '';
+                passwordConfirm.value = '';
+                password.focus();
+                event.preventDefault();
+            }
+        });
+    </script>
+</body>
+</html>
