@@ -570,3 +570,204 @@ input:checked + .slider:before {
 .dark-mode .switch-container {
     background-color: #222222;
 }
+
+.dark-mode .form-grid {
+    background-color: #2C2C2C;
+}
+
+.dark-mode .form-container {
+    background-color: #BA9352;
+}
+
+.dark-mode .benefits-container {
+    background-color: #BA9352;
+}
+
+.dark-mode .benefits-container p, h2 {
+    color: #222222;
+}
+
+.dark-mode .benefits-container hr {
+    background-color: #222222;
+}
+
+.dark-mode .form-container hr {
+    background-color: #222222;
+}
+
+.dark-mode .form-container label {
+    color: black;
+    font-size: 20px;
+}
+
+.dark-mode .form-container input[type="text"],
+.dark-mode .form-container input[type="tel"],
+.dark-mode .form-container input[type="email"],
+.dark-mode .form-container input[type="url"],
+.dark-mode .form-container input[type="date"],
+.dark-mode .form-container input[type="number"],
+.dark-mode .form-container select {
+    background-color: rgb(207, 207, 207);
+}
+
+.dark-mode #description {
+    background-color: rgb(207, 207, 207);
+}
+
+.dark-mode .form-grid h1 {
+    color: #fff;
+}
+
+:root {
+    --main-bg-color: #f0f0f0;
+    --text-color: #333;
+    --accent-color: #153954;
+}
+
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: var(--main-bg-color);
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8);
+    grid-column: 1;
+    
+}
+
+.form-container fieldset {
+    margin: 0;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.form-container legend {
+    color: #17333B;
+    padding: 0 .5rem;
+}
+
+.form-container label {
+    display: block;
+    padding-top: 1rem;
+    color: #17333B;
+    color: black;
+    font-size: 20px;
+}
+
+.form-container div {
+    padding-top: 1rem;
+    color: #445ba9;
+    font-size: .9rem;
+    grid-column: 1;
+}
+
+.form-container input[type="text"],
+.form-container input[type="tel"],
+.form-container input[type="email"],
+.form-container input[type="url"],
+.form-container input[type="date"],
+.form-container input[type="number"] {
+    background-color: #fff;
+    display: block;
+    border: solid 1px #333;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #333;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.form-container input[type="radio"],
+.form-container input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.form-container button {
+    border: none;
+    background-image: linear-gradient(#265656, #0c1c20);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 2rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #333;
+}
+
+.form-container input:required {
+    border-left: solid 8px red;
+}
+
+.form-container input:required:valid {
+    border-left: solid 8px green;
+}
+
+
+main .benefits-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: var(--main-bg-color);
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8);
+    grid-column: 3;
+}
+
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 2;
+    grid-gap: 10px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #C9C9C9;
+}
+
+.form-grid h1 {
+    grid-column: 1 / 4;
+    text-align: center;
+    grid-row: 1;
+    color: #17333B;
+    margin-bottom: 0;
+}
+
+.container {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.form-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#description {
+    min-width: 410px; /* Replace with the minimum width you desire */
+    max-width: 425px; /* Replace with the maximum width you desire */
+    max-height: 300px;
+    min-height: 200px;
+}
+
+.form-container select {
+    background-color: #fff;
+    display: block;
+    border: solid 1px #333;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #333;
+    width: 100%;
+    max-width: 430px;
+    appearance: none;
+}
