@@ -11,13 +11,9 @@ form {
     background: var(--main-bg-color);
     border-radius: 8px;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8);
-    grid-column: 1;
+    grid-column: 2;
 }
-form h4 {
-    font-size: 22px;
-    margin: 10px 0px 0px 0px;
-    padding: 10px;
-}
+
 
 form hr {
     margin: 0px 0px 30px 0px;
@@ -42,7 +38,6 @@ button {
     padding: .75rem;
     margin-bottom: 20px;
     border: 1px solid #999;
-    
     border-radius: 6px;
     box-sizing: border-box;
 }
@@ -73,4 +68,9 @@ input:required:valid {
 
 main h1 {
     margin-bottom: 0;
+    grid-column: 2;
+}
+
+.form-container {
+    grid-template-columns: repeat(3, 1fr);
 }
