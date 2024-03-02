@@ -6,6 +6,12 @@
     margin: 0 auto;
 }
 
+html, body {
+    width: 100%; /* This ensures that the html and body take up the full viewport width */
+    max-width: 100%; /* This prevents the html and body from exceeding the viewport width */
+    overflow-x: hidden; /* This prevents horizontal scrolling caused by overflow */
+}
+
 header {
     display: grid;
     grid-template-columns: 150px auto 150px 250px;

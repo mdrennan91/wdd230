@@ -264,4 +264,45 @@
         color: #222222;
         background-color: #BA9352;
     }
+
+    .form-grid, .container, .form-container, .benefits-container {
+        display: block; 
+        width: 100%; 
+    }
+
+    .form-grid, .form-grid form, .form-grid .benefits-container, .form-grid form label, .form-grid form input, .form-grid form select, .form-grid form textarea, .form-grid form button {
+        width: 100%; 
+        box-sizing: border-box;
+    }
+
+    .form-grid form label {
+        display: block;
+        margin-bottom: 20px; 
+    }
+
+    .form-grid form button {
+        display: block;
+        width: auto; 
+        margin-top: 20px; 
+    }
+
+    
+    .form-grid h2 {
+        font-size: 24px; 
+    }
+
+    .form-grid form label, .form-grid form input, .form-grid form select, .form-grid form textarea {
+        font-size: 16px; 
+    }
+
+    .form-logo img {
+        display: none;
+    }
+
+    .form-grid h1 {
+        margin-top: 0;
+        padding-top: 20px;
+        font-size: 1.5em;
+    }
 }
+
