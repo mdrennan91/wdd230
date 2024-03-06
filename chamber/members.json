@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "Tech Innovations Inc.",
+            "address": "1234 Silicon Drive, Techville, CA 94088",
+            "phone_number": "(555) 123-4567",
+            "website_url": "https://www.techinnovationsinc.com",
+            "image_icon_file_name": "tech_innovations_icon.png",
+            "membership_level": "Gold",
+            "other_info": "Specializes in AI and machine learning solutions."
+        },
+        {
+            "name": "EcoFriendly Solutions",
+            "address": "789 Green Way, EcoCity, OR 97035",
+            "phone_number": "(555) 234-5678",
+            "website_url": "https://www.ecofriendlysolutions.com",
+            "image_icon_file_name": "ecofriendly_icon.png",
+            "membership_level": "Silver",
+            "other_info": "Provides eco-friendly packaging and recycling services."
+        },
+        {
+            "name": "NextGen Robotics",
+            "address": "456 Technology Loop, Innovatech Park, TX 75201",
+            "phone_number": "(555) 345-6789",
+            "website_url": "https://www.nextgenrobotics.com",
+            "image_icon_file_name": "nextgen_robotics_icon.png",
+            "membership_level": "Platinum",
+            "other_info": "Develops advanced robotics systems for healthcare and manufacturing."
+        },
+        {
+            "name": "Healthy Eats",
+            "address": "321 Wellness Drive, Foodie Town, NY 10010",
+            "phone_number": "(555) 456-7890",
+            "website_url": "https://www.healthyeats.com",
+            "image_icon_file_name": "healthy_eats_icon.png",
+            "membership_level": "Bronze",
+            "other_info": "Delivers fresh and organic meals to your doorstep."
+        },
+        {
+            "name": "Global IT Services",
+            "address": "987 Tech Boulevard, Cyber City, FL 33101",
+            "phone_number": "(555) 567-8901",
+            "website_url": "https://www.globalitservices.com",
+            "image_icon_file_name": "global_it_services_icon.png",
+            "membership_level": "Gold",
+            "other_info": "Offers IT support and cloud services for businesses worldwide."
+        },
+        {
+            "name": "EduTech Innovations",
+            "address": "654 Learning Lane, EduCity, MA 02108",
+            "phone_number": "(555) 678-9012",
+            "website_url": "https://www.edutechinnovations.com",
+            "image_icon_file_name": "edutech_innovations_icon.png",
+            "membership_level": "Silver",
+            "other_info": "Provides cutting-edge educational technology and e-learning solutions."
+        },
+        {
+            "name": "Renewable Energy Co.",
+            "address": "123 Sunshine Street, GreenTech Park, NV 89012",
+            "phone_number": "(555) 789-0123",
+            "website_url": "https://www.renewableenergyco.com",
+            "image_icon_file_name": "renewable_energy_co_icon.png",
+            "membership_level": "Platinum",
+            "other_info": "Specializes in solar and wind energy solutions."
+        }
+    ]
+}
