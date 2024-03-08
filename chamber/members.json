@@ -32,7 +32,7 @@
             "address": "321 Wellness Drive, Foodie Town, NY 10010",
             "phone_number": "(555) 456-7890",
             "website_url": "https://www.healthyeats.com",
-            "image_icon_file_name": "healthy_eats_icon.png",
+            "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/chamber-logo-v2.png",
             "membership_level": "Bronze",
             "other_info": "Delivers fresh and organic meals to your doorstep."
         },
