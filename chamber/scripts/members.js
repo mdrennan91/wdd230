@@ -7,7 +7,7 @@ fetch("https://mdrennan91.github.io/wdd230/chamber/members.json")
     .catch(error => console.error('Error fetching companies data:', error));
 
 function displayCompanies(companies) {
-    const cardsContainer = document.querySelector('.directory-grid'); 
+    const cardsContainer = document.querySelector('.directory'); 
 
     cardsContainer.innerHTML = '';
 
@@ -18,6 +18,7 @@ function displayCompanies(companies) {
         card.innerHTML = `
             <div class="member-card-content">
                 <h2>${company.name}</h2>
+                <img src="${company.image_icon_file_name}" alt="${company.name} Logo" class="member-card-img">
                 <p><strong>Address:</strong> ${company.address}</p>
                 <p><strong>Phone:</strong> ${company.phone_number}</p>
                 <p><strong>Website:</strong> <a href="${company.website_url}" target="_blank">${company.website_url}</a></p>
