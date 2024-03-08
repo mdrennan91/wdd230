@@ -44,7 +44,8 @@ main {
 
 .temple-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  /* grid-template-columns: repeat(6, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   box-shadow: 0 0 10px 15px rgba(0, 0, 0, 0.3);
   background-color: #DDDDDD;
   padding: 20px;
@@ -127,7 +128,7 @@ footer {
 	list-style: none;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .temple-grid {
       display: block;
       padding: 10px;
@@ -140,4 +141,4 @@ footer {
   img {
     margin-top: 20px;
   }
-}
+} */
