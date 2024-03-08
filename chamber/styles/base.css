@@ -833,3 +833,7 @@ button:hover {
 .member-card a {
    color: #17333b;
 }
+
+.dark-mode .member-card a {
+    color: #BA9352;
+}
