@@ -235,7 +235,8 @@ main section {
 .card5 p,
 .card6 p,
 .card7 p,
-.card8 p {
+.card8 p,
+.member-card p {
     font-size: 20px;
     font-family: 'work sans';
     margin-left: 20px;
@@ -514,7 +515,8 @@ input:checked + .slider:before {
 .dark-mode .card5,
 .dark-mode .card6,
 .dark-mode .card7,
-.dark-mode .card8 {
+.dark-mode .card8,
+.dark-mode .member-card {
     background-color: #444; 
     color: #ddd;
     box-shadow: 4px 4px 8px 0 rgba(135, 135, 135, 0.8); 
@@ -527,12 +529,17 @@ input:checked + .slider:before {
 .dark-mode .card5 h3,
 .dark-mode .card6 h3,
 .dark-mode .card7 h3,
-.dark-mode .card8 h3 {
+.dark-mode .card8 h3,
+.dark-mode .member-card h2 {
     color: #222222;
     background-color: #BA9352;
 }
 
 .dark-mode .discover-grid {
+    background-color: #2C2C2C;
+}
+
+.dark-mode .directory-grid {
     background-color: #2C2C2C;
 }
 
@@ -772,8 +779,8 @@ button:hover {
 }
 
 #description {
-    min-width: 410px; /* Replace with the minimum width you desire */
-    max-width: 425px; /* Replace with the maximum width you desire */
+    min-width: 410px; 
+    max-width: 425px; 
     max-height: 300px;
     min-height: 200px;
 }
@@ -788,4 +795,41 @@ button:hover {
     width: 100%;
     max-width: 430px;
     appearance: none;
+}
+
+
+.directory-grid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-column: 2 / 3;
+    background-color: #c9c9c9;
+}
+
+.member-card {
+    background-color: #e6e6ff;
+    border-radius: 3px;
+    border: 1px solid #6f6f6f;
+    box-shadow: 4px 4px 8px 0;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.member-card h2 {
+    background-color: #17333b;
+    color: #BA9352;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0;
+    font-size: 1.2em;
+}
+
+.member-card a {
+   color: #17333b;
 }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spokane Valley Chamber Gateway</title>
+    <meta name="author" content="Mitchel Drennan">
+    <meta name="description" content="Spokane Valley Chamber Gateway serves as a central hub that offers resources and guidance to local businesses and community members.">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Spokane Valley Chamber Gateway">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.craiggoodwinphoto.com/images/xl/downtown-spokane-falls-monroe-bridge-lights-dusk-1.jpg">
+    <meta property="og:image:alt" content="Gondolas over river downtown Spokane">
+    <meta property="og:url" content="https://mdrennan91.github.io/wdd230/chamber/index.html">
+</head>
+<body>
+    <!-- <div id="content"> -->
+        <header>
+            <a id="logo_link" href="https://mdrennan91.github.io/wdd230/chamber/index.html">
+                <img class="logo" src="images/chamber-logo-v3.webp" alt="Chamber logo">
+            </a>
+            <div class="header-titles">
+                <h1>Spokane Valley</h1>
+                <h3>Chamber Gateway</h3>
+            </div>
+            <div class="switch-container">
+                <label class="dark-mode-label" for="dark-mode-toggle"></label>
+                <label class="switch">
+                    <input type="checkbox" id="dark-mode-toggle">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/social-facebook.webp" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/social-twitter.webp" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/social-instagram.webp" alt="instagram icon">
+                </a>
+            </div>
+        </header>
+        <nav>
+            <div class="navbar">
+                <span class="hamburger">☰</span>
+                <a href="https://mdrennan91.github.io/wdd230/chamber/index.html">Home</a>
+                <a href="https://mdrennan91.github.io/wdd230/chamber/discover.html">Discover</a>
+                <a class="active" href="#">Directory</a>
+                <a href="https://mdrennan91.github.io/wdd230/chamber/join.html">Join</a>
+            </div>
+        </nav>
+        <main class="directory-grid">
+            <h1>Directory</h1>
+                <img class="logo" src="images/chamber-logo-v3.webp" alt="Chamber logo">
+                <div id="member-cards"></div>
+        </main>
+        <footer>
+            <div class="footer-top">
+                <div class="logo-address-group">
+                    <a id="footer_logo_link" href="https://mdrennan91.github.io/wdd230/chamber/index.html">
+                        <img class="logo" src="images/chamber-logo-v3.webp" alt="Chamber logo">
+                    </a>
+                    <div class="chamber-address">
+                        <p><b>Spokane Valley</b><br><b>Chamber Gateway</b>
+                        <br>123 Evergreen Terrace<br>
+                        Spokane Valley, WA 99206</p>
+                    </div>
+                </div>
+                <div class="contact-info"></div>
+                    <p>info@spokanevalleygateway.org<br>+(509) 555-0123<br><br>📍 Location Map</p>
+                </div>
+            <!-- </div> -->
+            <hr>
+            <div class="footer-bottom">
+                <span id="copyright">&copy; <span id="currentYear"></span>&nbsp;Chamber Gateway</span>
+                <span><b>Mitchel Drennan</b></span>
+                <span>WDD 230 Project</span>
+                <span id="lastModified"></span>
+            </div>
+        </footer>
+    <!-- </div> -->
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/members.js"></script>
+</body>
+</html>
