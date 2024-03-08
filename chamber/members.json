@@ -15,7 +15,7 @@
             "phone_number": "(555) 234-5678",
             "website_url": "https://www.ecofriends.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/ecofriendly.webp",
-            "membership_level": "Silver",
+            "membership_level": "Gold",
             "other_info": "Provides eco-friendly packaging and recycling services."
         },
         {
@@ -24,7 +24,7 @@
             "phone_number": "(555) 345-6789",
             "website_url": "https://www.nexgenbots.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/robotics.webp",
-            "membership_level": "Platinum",
+            "membership_level": "Gold",
             "other_info": "Develops advanced robotics systems for healthcare and manufacturing."
         },
         {
@@ -33,7 +33,7 @@
             "phone_number": "(555) 456-7890",
             "website_url": "https://www.healthyeats.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/healthy.webp",
-            "membership_level": "Bronze",
+            "membership_level": "Silver",
             "other_info": "Delivers fresh and organic meals to your doorstep."
         },
         {
@@ -42,7 +42,7 @@
             "phone_number": "(555) 567-8901",
             "website_url": "https://www.globeserv.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/global.webp",
-            "membership_level": "Gold",
+            "membership_level": "Silver",
             "other_info": "Offers IT support and cloud services for businesses worldwide."
         },
         {
@@ -60,7 +60,7 @@
             "phone_number": "(555) 789-0123",
             "website_url": "https://www.renewanrg.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/renewable.webp",
-            "membership_level": "Platinum",
+            "membership_level": "Bronze",
             "other_info": "Specializes in solar and wind energy solutions."
         },
         {
@@ -69,7 +69,7 @@
             "phone_number": "(555) 890-1234",
             "website_url": "https://www.vrventures.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/virtual.webp",
-            "membership_level": "Gold",
+            "membership_level": "Bronze",
             "other_info": "Leading developer of immersive virtual reality experiences for gaming and education."
         },
         {
@@ -78,7 +78,7 @@
             "phone_number": "(555) 901-2345",
             "website_url": "https://www.blockchainltd.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/blockchain.webp",
-            "membership_level": "Silver",
+            "membership_level": "Bronze",
             "other_info": "Offers blockchain technology development and consulting services to enhance business security and efficiency."
         }
     ]
