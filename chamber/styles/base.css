@@ -7,9 +7,9 @@
 }
 
 html, body {
-    width: 100%; /* This ensures that the html and body take up the full viewport width */
-    max-width: 100%; /* This prevents the html and body from exceeding the viewport width */
-    overflow-x: hidden; /* This prevents horizontal scrolling caused by overflow */
+    width: 100%; 
+    max-width: 100%; 
+    overflow-x: hidden; 
 }
 
 header {
@@ -799,18 +799,27 @@ button:hover {
 
 
 .directory-grid {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0;
+    padding-right: 0;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
     grid-column: 2 / 3;
     background-color: #c9c9c9;
 }
 
+.directory {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    background-color: #c9c9c9;
+}
+
 .member-card {
-    background-color: #e6e6ff;
+    background-color: #c7c7c7;
     border-radius: 3px;
     border: 1px solid #6f6f6f;
     box-shadow: 4px 4px 8px 0;
@@ -828,6 +837,7 @@ button:hover {
     box-sizing: border-box;
     border-radius: 3px 3px 0;
     font-size: 1.2em;
+    text-align: center;
 }
 
 .member-card a {
@@ -836,4 +846,24 @@ button:hover {
 
 .dark-mode .member-card a {
     color: #BA9352;
+}
+
+.directory-grid h1 {
+    text-align: center;
+    grid-column: 1 / -1;
+    font-size: 2em;
+}
+
+.dark-mode .directory {
+    background-color: #2c2c2c;
+}
+
+.member-card-img {
+    display: block;
+    width: 150px; 
+    height: auto;
+    margin: 30px auto; 
+    border-radius: 8px;
+    background-color: rgba(142, 142, 142, 0.5);
+    box-shadow: 0 0 30px 3px #535353;
 }
