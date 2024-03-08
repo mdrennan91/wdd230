@@ -833,7 +833,7 @@ button:hover {
 }
 
 .member-card h2 {
-    background-color: #17333b;
+    background-color: #17333B;
     color: #BA9352;
     padding: 10px;
     margin-top: 0;
@@ -870,4 +870,144 @@ button:hover {
     border-radius: 8px;
     background-color: rgba(142, 142, 142, 0.5);
     box-shadow: 0 0 30px 3px #535353;
+}
+
+
+
+
+
+
+
+
+
+.grid .directory-table {
+    display: none;
+}
+
+.list .member-card {
+    display: none;
+}
+
+
+
+.directory-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left; 
+    background-color: #fff; 
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 8px 0;
+}
+
+.directory-table th, .directory-table td {
+    padding: 15px; 
+    border: 1px solid #ccc;
+}
+
+.directory-table th {
+    background-color: #17333B; 
+    color: #BA9352; 
+    font-weight: bold; 
+}
+
+.directory-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.directory-table tr:hover {
+    background-color: #ddd; 
+}
+
+.directory-table a {
+    color: #17333B;
+}
+
+.directory.list {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#grid, #list {
+    font-size: 2.5em;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    outline: none; 
+    margin: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+    color: #BA9352;
+    background-color: #17333B;
+    text-align: center;
+}
+
+#list {
+    justify-self: start; 
+}
+
+#grid {
+    justify-self: end;
+}
+
+
+#grid:hover, #list:hover {
+    background-color: #BA9352; 
+    color: #17333B;
+    transform: scale(1.1);
+}
+
+
+#grid.active.active, #list.active.active {
+    background-color: #333; 
+    color: #fff; 
+}
+
+.dark-mode #grid {
+    background-color: #BA9352; 
+    color: #17333b; 
+}
+
+.dark-mode #list {
+    background-color: #BA9352; 
+    color: #17333b; 
+}
+
+.dark-mode .directory-table {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .directory-table th {
+    border: 1px solid #444;
+    background-color: #BA9352; 
+    color: #333; 
+
+}
+
+.dark-mode .directory-table td {
+    border: 1px solid #444;
+}
+
+.dark-mode .directory-table tr:nth-child(even) {
+    background-color: #262626; 
+}
+
+.dark-mode .directory-table tr:hover {
+    background-color: #333; 
+}
+
+.dark-mode .directory-table a {
+    color: #d2b48c; 
+    text-decoration: none; 
+}
+
+.dark-mode .directory-table a:hover {
+    color: #ffffff; 
 }

@@ -2,7 +2,7 @@
     "companies": [
         {
             "name": "Tech Innovations Inc.",
-            "address": "1234 Silicon Drive, Techville, CA 94088",
+            "address": "1234 Silicon Drive, Spokane, WA 99201",
             "phone_number": "(555) 123-4567",
             "website_url": "https://www.techinnovate.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/tech_innovate.webp",
@@ -11,7 +11,7 @@
         },
         {
             "name": "EcoFriendly Solutions",
-            "address": "789 Green Way, EcoCity, OR 97035",
+            "address": "789 Green Way, Spokane Valley, WA 99202",
             "phone_number": "(555) 234-5678",
             "website_url": "https://www.ecofriends.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/ecofriendly.webp",
@@ -20,7 +20,7 @@
         },
         {
             "name": "NextGen Robotics",
-            "address": "456 Technology Loop, Innovatech Park, TX 75201",
+            "address": "456 Technology Loop, Spokane, WA 99201",
             "phone_number": "(555) 345-6789",
             "website_url": "https://www.nexgenbots.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/robotics.webp",
@@ -29,7 +29,7 @@
         },
         {
             "name": "Healthy Eats",
-            "address": "321 Wellness Drive, Foodie Town, NY 10010",
+            "address": "321 Wellness Drive, Spokane, WA 99201",
             "phone_number": "(555) 456-7890",
             "website_url": "https://www.healthyeats.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/healthy.webp",
@@ -38,7 +38,7 @@
         },
         {
             "name": "Global IT Services",
-            "address": "987 Tech Boulevard, Cyber City, FL 33101",
+            "address": "987 Tech Boulevard, Spokane Valley, WA 99202",
             "phone_number": "(555) 567-8901",
             "website_url": "https://www.globeserv.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/global.webp",
@@ -47,7 +47,7 @@
         },
         {
             "name": "EduTech Innovations",
-            "address": "654 Learning Lane, EduCity, MA 02108",
+            "address": "654 Learning Lane, Spokane, WA 99201",
             "phone_number": "(555) 678-9012",
             "website_url": "https://www.edutech.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/edutech.webp",
@@ -56,7 +56,7 @@
         },
         {
             "name": "Renewable Energy Co.",
-            "address": "123 Sunshine Street, GreenTech Park, NV 89012",
+            "address": "123 Sunshine Street, Spokane Valley, WA 99202",
             "phone_number": "(555) 789-0123",
             "website_url": "https://www.renewanrg.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/renewable.webp",
@@ -65,7 +65,7 @@
         },
         {
             "name": "Virtual Reality Ventures",
-            "address": "987 VR Drive, Virtual Valley, VR 90001",
+            "address": "987 VR Drive, Spokane, WA 99201",
             "phone_number": "(555) 890-1234",
             "website_url": "https://www.vrventures.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/virtual.webp",
@@ -74,7 +74,7 @@
         },
         {
             "name": "Blockchain Solutions Ltd.",
-            "address": "321 Crypto Street, BlockCity, BC 10101",
+            "address": "321 Crypto Street, Spokane Valley, WA 99202",
             "phone_number": "(555) 901-2345",
             "website_url": "https://www.blockchainltd.com",
             "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/blockchain.webp",
