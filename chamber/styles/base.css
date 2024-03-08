@@ -627,6 +627,10 @@ input:checked + .slider:before {
     background-color: rgb(207, 207, 207);
 }
 
+.dark-mode .discover-grid h2 {
+    color: #F0F0F0;
+} 
+
 .dark-mode .form-grid h1 {
     color: #fff;
 }
