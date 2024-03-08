@@ -5,7 +5,7 @@
             "address": "1234 Silicon Drive, Techville, CA 94088",
             "phone_number": "(555) 123-4567",
             "website_url": "https://www.techinnovate.com",
-            "image_icon_file_name": "tech_innovations_icon.png",
+            "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/tech_innovate.webp",
             "membership_level": "Gold",
             "other_info": "Specializes in AI and machine learning solutions."
         },
@@ -14,7 +14,7 @@
             "address": "789 Green Way, EcoCity, OR 97035",
             "phone_number": "(555) 234-5678",
             "website_url": "https://www.ecofriends.com",
-            "image_icon_file_name": "ecofriendly_icon.png",
+            "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/ecofriendly.webp",
             "membership_level": "Silver",
             "other_info": "Provides eco-friendly packaging and recycling services."
         },
@@ -22,8 +22,8 @@
             "name": "NextGen Robotics",
             "address": "456 Technology Loop, Innovatech Park, TX 75201",
             "phone_number": "(555) 345-6789",
-            "website_url": "https://www.nexgenrobo.com",
-            "image_icon_file_name": "nextgen_robotics_icon.png",
+            "website_url": "https://www.nexgenbots.com",
+            "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/robotics.webp",
             "membership_level": "Platinum",
             "other_info": "Develops advanced robotics systems for healthcare and manufacturing."
         },
@@ -32,7 +32,7 @@
             "address": "321 Wellness Drive, Foodie Town, NY 10010",
             "phone_number": "(555) 456-7890",
             "website_url": "https://www.healthyeats.com",
-            "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/chamber-logo-v2.png",
+            "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/healthy.webp",
             "membership_level": "Bronze",
             "other_info": "Delivers fresh and organic meals to your doorstep."
         },
@@ -41,7 +41,7 @@
             "address": "987 Tech Boulevard, Cyber City, FL 33101",
             "phone_number": "(555) 567-8901",
             "website_url": "https://www.globeserv.com",
-            "image_icon_file_name": "global_it_services_icon.png",
+            "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/global.webp",
             "membership_level": "Gold",
             "other_info": "Offers IT support and cloud services for businesses worldwide."
         },
@@ -50,7 +50,7 @@
             "address": "654 Learning Lane, EduCity, MA 02108",
             "phone_number": "(555) 678-9012",
             "website_url": "https://www.edutech.com",
-            "image_icon_file_name": "edutech_innovations_icon.png",
+            "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/edutech.webp",
             "membership_level": "Silver",
             "other_info": "Provides cutting-edge educational technology and e-learning solutions."
         },
@@ -59,7 +59,7 @@
             "address": "123 Sunshine Street, GreenTech Park, NV 89012",
             "phone_number": "(555) 789-0123",
             "website_url": "https://www.renewanrg.com",
-            "image_icon_file_name": "renewable_energy_co_icon.png",
+            "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/renewable.webp",
             "membership_level": "Platinum",
             "other_info": "Specializes in solar and wind energy solutions."
         },
@@ -68,7 +68,7 @@
             "address": "987 VR Drive, Virtual Valley, VR 90001",
             "phone_number": "(555) 890-1234",
             "website_url": "https://www.vrventures.com",
-            "image_icon_file_name": "virtual_reality_ventures_icon.png",
+            "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/virtual.webp",
             "membership_level": "Gold",
             "other_info": "Leading developer of immersive virtual reality experiences for gaming and education."
         },
@@ -77,7 +77,7 @@
             "address": "321 Crypto Street, BlockCity, BC 10101",
             "phone_number": "(555) 901-2345",
             "website_url": "https://www.blockchainltd.com",
-            "image_icon_file_name": "blockchain_solutions_icon.png",
+            "image_icon_file_name": "https://raw.githubusercontent.com/mdrennan91/wdd230/main/chamber/images/blockchain.webp",
             "membership_level": "Silver",
             "other_info": "Offers blockchain technology development and consulting services to enhance business security and efficiency."
         }
