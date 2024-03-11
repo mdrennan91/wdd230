@@ -66,14 +66,21 @@
         </section>
         <section class="card">
             <h3>Information</h3>
-                <p>Washington, US</p>
+                <p><b>Spokane, Washington, US</b></p>
                 <br>
-                <p>Weather</p>
-                <p>Current Temperature: <span id="currentTemp">50</span>°F</p>
+                <p><b>Weather</b></p>
+                <div class="weather-row"> 
+                    <img id="weather-icon" src="" alt="Weather Icon">
+                    <p id="temperature-desc">
+                        <span id="currentTemp">50</span>°F -    
+                        <span id="weather-desc">Sunny</span>
+                    </p>
+                </div>
+                <br>
                 <p>Wind Speed: <span id="currentWindSpeed">4</span> mph</p>
                 <p>Wind Chill: <span id="windChillValue">N/A</span></p>
                 <br>
-                <p><span class="label">Page Visits: </span><span class="visits"></span></p>
+                <p><span class="label"><b>Page Visits:</b> </span><span class="visits"></span></p>
         </section>
         <iframe
             class="google-map"
@@ -98,5 +105,6 @@
     <script src="scripts/windchill.js"></script>
     <script src="scripts/visitcounter.js"></script>
     <script src="scripts/links.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
