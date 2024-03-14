@@ -23,8 +23,9 @@ function updateForecastDisplay(data) {
         const descElement = document.getElementById(`forecastDesc${i}`);
         
         const date = new Date(forecast.dt * 1000);
+        const dateString = date.toLocaleDateString('en-US', { month: 'numeric', day: 'numeric' });
         const dayName = date.toLocaleDateString('en-US', { weekday: 'long' });
-        dayElement.textContent = i === 0 ? 'Today' : dayName;
+        dayElement.textContent = i === 0 ? `Today, ${dateString}` : `${dayName}, ${dateString}`;
         
         const iconCode = forecast.weather[0].icon;
         const weatherDescription = forecast.weather[0].description;
