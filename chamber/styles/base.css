@@ -872,14 +872,6 @@ button:hover {
     box-shadow: 0 0 30px 3px #535353;
 }
 
-
-
-
-
-
-
-
-
 .grid .directory-table {
     display: none;
 }
@@ -887,8 +879,6 @@ button:hover {
 .list .member-card {
     display: none;
 }
-
-
 
 .directory-table {
     width: 100%;
@@ -1010,4 +1000,43 @@ button:hover {
 
 .dark-mode .directory-table a:hover {
     color: #ffffff; 
+}
+
+#forecastIcon0,
+#forecastIcon1,
+#forecastIcon2 {
+    width: 70px; 
+    height: auto;
+    background-color: rgba(176, 175, 175, 0.5);
+    margin-bottom: 20px;
+    border: 1px solid #6f6f6f;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.forecast-card {
+    flex-basis: calc(33.333% - 20px);
+    margin: 10px;
+
+}
+
+.temp-desc-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    white-space: nowrap;
+}
+
+.temp-desc-container p {
+    margin: 0; 
+    padding: 0 5px;
+}
+
+.forecast-card h4{
+    margin-top: 0;
 }
