@@ -94,13 +94,6 @@ main {
     grid-column: 2;
 }
 
-/* .hero {
-    width: 100%;
-    height: auto;
-    grid-column: 1 / -1;
-    grid-row: 1;  
-} */
-
 .card {
     background-color: #e6e6ff;
     margin-bottom: 20px;
@@ -138,11 +131,6 @@ main {
 .card a:hover {
     color: #954E31;
 }
-
-/* .hr {
-    margin: 0;
-    grid-row: 2;
-} */
 
 h2, h3 {
     color: #333
@@ -201,10 +189,6 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* background-color: rgba(142, 142, 142, 0.5);
-    margin-left: 100px;
-    margin-right: 100px; */
-
 }
 
 #weather-icon {
