@@ -917,8 +917,6 @@ button:hover {
     margin-right: 20px;
 }
 
-
-
 .button-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1042,4 +1040,39 @@ button:hover {
 
 .forecast-card h4{
     margin-top: 0;
+}
+
+.event-banner {
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    background-color: #17333B;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1000;
+}
+  
+.event-banner p {
+    margin: 0;
+}
+  
+.event-banner button {
+    margin-left: 1rem;
+    padding: 0.5rem;
+    background-color: #BA9352;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.dark-mode .event-banner {
+    background-color: #BA9352;
+    color: black;
+}
+
+.dark-mode .event-banner button {
+    background-color: #17333b;
+    color: white;
 }
