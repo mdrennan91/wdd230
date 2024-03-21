@@ -29,7 +29,7 @@
         padding: 0;
     }
     
-    header h3 {
+    header h2 {
         font-size: 1em;
         padding: 0;
     }
@@ -315,6 +315,10 @@
         flex-basis: 100%;
         margin-right: 0;
         margin-left: 0;
+    }
+
+    .join:hover {
+        transform: none;
     }
 }
 
