@@ -30,7 +30,7 @@ function displayFeaturedCompanies(companies) {
             <p class="membership-level"><strong>Membership Level:</strong> ${company.membership_level}</p>
             <p class="company-about">${company.other_info}</p>
             <p>+ ${company.phone_number}</p>
-            <p><a href="${company.website_url}" target="_blank">${company.website_url}</a></p>
+            <a href="${company.website_url}" target="_blank">${company.website_url}</a>
         `;
         featuredContainer.appendChild(card);
     });
