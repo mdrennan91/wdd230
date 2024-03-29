@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'rock salt';
+    color: #2F9BFF;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.icon-row ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.icon-row {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #D8DBE1;
+    padding: 0;
+}
+
+.icon-row li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.icon-row img {
+    display: block;
+    margin: 0;
+}
+
+.icon-row span {
+    color: #333;
+    display: block;
+    text-align: center;
+    font-family: 'noto sans display';
+}
+
+nav a.active {
+    text-decoration: underline;
+    text-decoration-color: #2F9BFF;
+
+}
+
+a,button {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'noto sans display';
+    color: #171A21;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    background-color: #2F9BFF;
+    border: 2px solid #2F9BFF;
+    border-radius: 50px;
+    padding: 9px 25px;
+    margin: 10px;
+}
+
+nav li a:hover {
+    color: #2F9BFF;
+    transition: all 0.4s ease 0s;
+}
+
+button:hover {
+    transition: all 0.4s ease 0s;
+    border: 2px solid #2F9BFF;
+    transform: scale(1.1);
+}
+
+.logo:hover {
+    transition: all 0.4s ease 0s;
+    color: #171A21;
+}
+
+.social img {
+    opacity: 90%;
+    padding: 5px;
+    border-radius: 15px;
+    max-width: 70px;
+}
+
+.social img:hover {
+    transition: all 0.4s ease 0s;
+    transform: scale(1.1);
+}
+
+.hero-image {
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero-img {
+    width: 100%;
+    height: 660px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 10;
+}
+
+.hero-text h1 {
+    font-family: 'roboto';
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-family: 'noto sans display';
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.scoots-intro {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.scoots-intro p {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.home-grid {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    display: grid;
+    grid-column: 2 / 3;
+    background-color: #FFFFFF;
+}
+
+.home-grid h2 {
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 3em;
+    color: #171A21;
+    padding: 20px 20px;
+}
+
+.rentals {
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.rental-card {
+    margin: 20px;
+}
+
+.rental-card h3 {
+    color: #171A21;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'noto sans display';
+}
+
+.rental-card p {
+    color: #171A21;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'work sans';
+}
+
+.rental-card img {
+    width: 100%;
+    height: auto;
+}
+
+.rental-card img:hover {
+    transition: all 0.4s ease 0s;
+    transform: scale(1.08);
+}
+
+.rental-card .button-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.info-card {
+    font-family: 'noto sans display';
+    background-color: #292F38;
+    padding: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px;
+}
+
+.info-card h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.info-card p {
+    font-size: 1.1em;
+    margin: 0px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    background-color: #292F38;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#current-weather-icon {
+    max-width: 40px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    color: #171A21;
+    text-align: center;
+    grid-column: 2;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    padding: 15px 0;
+}
+
+#footer_logo_link {
+    margin-right: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #292F38;
+    margin: 0;
+}
+
+.footer-address {
+    text-align: left;
+    margin: 0;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.footer-addresses p {
+    font-family: 'noto sans display';
+    font-size: 18px;
+    text-align: left;
+    margin: 20px;
+}
+
+.contact-info p {
+    font-family: 'noto sans display';
+    font-size: 18px;
+    text-align: left;
+    margin: 20px;
+}
+
+#copyright {
+    font-size: 24px;
+    color: #171A21;
+    display: inline-flex;
+    align-items: center;
+}
+
+#currentYear {
+    color: #292F38;
+}
+
+.footer-logo {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'rock salt';
+    color: #292F38;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    margin: 10px;
+}
