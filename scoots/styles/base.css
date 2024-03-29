@@ -374,6 +374,7 @@ footer {
     border: #2F9BFF;
     cursor: pointer;
     font-size: 14px; 
+    margin: 5px;
 }
 
 .close-button:hover {
