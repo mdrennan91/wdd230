@@ -75,7 +75,7 @@ nav li {
     color: #333;
     display: block;
     text-align: center;
-    font-family: 'noto sans display';
+    font-family: 'noto sans display', sans-serif;
 }
 
 nav a.active {
@@ -87,7 +87,7 @@ nav a.active {
 a,button {
     font-size: 20px;
     font-weight: 500;
-    font-family: 'noto sans display';
+    font-family: 'noto sans display', sans-serif;
     color: #171A21;
     text-decoration: none;
     cursor: pointer;
@@ -165,7 +165,7 @@ button:hover {
 }
 
 .hero-text p {
-    font-family: 'noto sans display';
+    font-family: 'noto sans display', sans-serif;
     font-size: 2em;
     margin-bottom: 50px;
 }
@@ -197,7 +197,7 @@ button:hover {
 
 .home-grid h2 {
     text-align: center;
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
     font-size: 3em;
     color: #171A21;
     padding: 20px 20px;
@@ -223,7 +223,7 @@ button:hover {
     border-radius: 3px 3px 0;
     font-size: 1.5em;
     text-align: center;
-    font-family: 'noto sans display';
+    font-family: 'noto sans display', sans-serif;
 }
 
 .rental-card p {
@@ -234,7 +234,7 @@ button:hover {
     border-radius: 3px 3px 0;
     font-size: 1.5em;
     text-align: center;
-    font-family: 'work sans';
+    font-family: 'noto sans display', sans-serif;
 }
 
 .rental-card img {
@@ -254,7 +254,7 @@ button:hover {
 }
 
 .info-card {
-    font-family: 'noto sans display';
+    font-family: 'noto sans display', sans-serif;
     background-color: #292F38;
     padding: 40px;
     color: #FFFFFF;
@@ -303,7 +303,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     font-size: 24px;
-    padding: 15px 0;
+    padding: 20px 0;
     background-color: #D8DBE1;
 }
 
@@ -321,14 +321,14 @@ footer {
 }
 
 .footer-addresses p {
-    font-family: 'noto sans display';
+    font-family: 'noto sans display', sans-serif;
     font-size: 18px;
     text-align: left;
     margin: 20px;
 }
 
 .contact-info p {
-    font-family: 'noto sans display';
+    font-family: 'noto sans display', sans-serif;
     font-size: 18px;
     text-align: left;
     margin: 20px;
@@ -350,9 +350,41 @@ footer {
 .footer-logo {
     font-size: 3em;
     font-weight: bold;
-    font-family: 'rock salt';
+    font-family: 'rock salt', 'roboto';
     color: #292F38;
     letter-spacing: 1.5px;
     cursor: pointer;
     margin: 10px;
 }
+
+#weatherBanner {
+    position: relative;
+    width: 100%;
+    background: #2F9BFF;
+    padding: 0;
+    text-align: center;
+    z-index: 1000;
+    font-family: 'noto sans display', sans-serif;
+}
+  
+.close-button {
+    padding: 5px 10px;
+    background-color: #171A21;
+    color: white; 
+    border: #2F9BFF;
+    cursor: pointer;
+    font-size: 14px; 
+}
+
+.close-button:hover {
+    background-color: #272b35;
+    transform: scale(1);
+    border: none;
+    transition: none 0.0s ease 0s;
+}
+  
+.banner-text {
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+}
+  
