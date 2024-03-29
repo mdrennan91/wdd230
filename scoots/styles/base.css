@@ -207,6 +207,7 @@ button:hover {
     padding: 0 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin-bottom: 20px;
 }
 
 .rental-card {
@@ -303,6 +304,7 @@ footer {
     align-items: center;
     font-size: 24px;
     padding: 15px 0;
+    background-color: #D8DBE1;
 }
 
 #footer_logo_link {
@@ -344,10 +346,12 @@ hr {
     color: #171A21;
     display: inline-flex;
     align-items: center;
+    font-weight: bold;
 }
 
 #currentYear {
     color: #292F38;
+    font-weight: bold;
 }
 
 .footer-logo {
