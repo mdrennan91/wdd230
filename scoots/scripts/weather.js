@@ -20,6 +20,39 @@ function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
+
+function displayWeatherBanner() {
+  fetch(forecastUrl)
+    .then(response => response.json())
+    .then(data => {
+      const today = new Date().toISOString().split('T')[0]; 
+      let tempMax = -Infinity; 
+  
+      data.list.forEach(slot => {
+        const slotDate = slot.dt_txt.split(' ')[0];
+        if (slotDate === today && slot.main.temp_max > tempMax) {
+          tempMax = slot.main.temp_max;
+        }
+      });
+  
+      if (tempMax > -Infinity) {
+        const tempMaxRounded = Math.round(tempMax);
+        const banner = document.getElementById('weatherBanner');
+        banner.innerHTML = `<span class="banner-text">DAYTIME HIGH: ${tempMaxRounded}°F</span> <button class="close-button" onclick="closeBanner()">Close</button>`;
+      } else {
+        console.log('No max temperature found for today.');
+      }
+    })
+    .catch(error => console.error('Failed to fetch weather data:', error));
+}
+
+function closeBanner() {
+  const banner = document.getElementById('weatherBanner');
+  banner.style.display = 'none';
+}
+
+document.addEventListener('DOMContentLoaded', displayWeatherBanner);
+
 async function fetchCurrentWeather() {
     try {
       const response = await fetch(currentWeatherUrl);
