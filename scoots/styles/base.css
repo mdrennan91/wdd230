@@ -139,6 +139,16 @@ button:hover {
     background-size: cover;
 }
 
+.hero-image1 {
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero-img,
 #hero-img {
     width: 100%;
     height: 660px;
@@ -203,18 +213,16 @@ button:hover {
     padding: 20px 20px;
 }
 
-.rentals {
+#rentalOptions {
     padding: 0 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
     margin-bottom: 20px;
+    text-align: center;
+    font-family: 'noto sans display', sans-serif;
 }
 
-.rental-card {
-    margin: 20px;
-}
-
-.rental-card h3 {
+#rentalOptions h3 {
     color: #171A21;
     padding-bottom: 0;
     margin-top: 0;
@@ -226,31 +234,24 @@ button:hover {
     font-family: 'noto sans display', sans-serif;
 }
 
-.rental-card p {
+#rentalOptions p {
     color: #171A21;
-    padding: 10px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     border-radius: 3px 3px 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
     font-family: 'noto sans display', sans-serif;
 }
 
-.rental-card img {
+.vehicle-card {
+    margin: 20px;
+}
+
+.vehicle-card img {
     width: 100%;
     height: auto;
-}
-
-.rental-card img:hover {
-    transition: all 0.4s ease 0s;
-    transform: scale(1.08);
-}
-
-.rental-card .button-container {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
 }
 
 .info-card {
@@ -388,4 +389,70 @@ footer {
     font-size: 18px;
     font-family: 'roboto', sans-serif;
 }
-  
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto 60px auto; 
+    font-family: 'noto sans display', sans-serif;
+    font-size: 18px;
+}
+
+th {
+    background-color: #2F9BFF;
+    color: #171A21;
+    padding: 10px;
+    text-align: center;
+}
+
+th[colspan="2"] {
+    text-align: center;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td:nth-child(0),
+td:nth-child(1),
+td:nth-child(2),  
+td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6) {
+    text-align: center;
+}
+
+
+#pricingSection h2 {
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 3em;
+    color: #171A21;
+    padding: 20px 20px;
+}
+
+.pricing-info {
+    margin-bottom: 40px;
+}
+
+.pricing-info p {
+    text-align: center;
+    font-family: 'noto sans display', sans-serif;
+    font-size: 20px;
+    color: #171A21;
+    padding-top: 10px;
+}
