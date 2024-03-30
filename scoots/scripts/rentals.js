@@ -10,6 +10,7 @@ function displayRentals(rentals) {
         const img = document.createElement('img');
         img.src = rental["Image URL"];
         img.alt = rental["Rental Type"];
+        img.loading = "lazy";
         container.appendChild(img);
 
         const type = document.createElement('h3');
