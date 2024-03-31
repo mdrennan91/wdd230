@@ -435,3 +435,140 @@ td:nth-child(6) {
     color: #171A21;
     padding: 20px 20px;
 }
+
+
+/* reservation form */
+.wf1 fieldset {
+    margin: 20px 0;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 0 10px 2% 2%;
+    font-family: 'noto sans display';
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.wf1 legend {
+    color: #171A21;
+    padding: 0 .5rem;
+    font-size: 24px;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: #171A21;
+    font-size: 16px;
+}
+
+.wf1 div {
+    padding-top: 1rem;
+    color: #445ba9;
+    font-size: .9rem;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="email"],
+.wf1 input[type="tel"],
+.wf1 input[type="date"],
+.wf1 input[type="time"],
+.wf1 select,
+.wf1 textarea {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.wf1 input[type="submit"] {
+    background-color: #2F9BFF;
+    border: solid 1px #2F9BFF;
+    border-radius: 50px;
+    padding: 9px 25px;
+    margin: 10px;
+    width: 96%;
+    max-width: 400px;
+    color: #171A21;
+}
+
+#customLocationField {
+    padding: 10px;
+    background-color: #e9e9e9;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.reservation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr; 
+    gap: 30px; 
+    margin: 30px;
+    padding: 10px;
+}
+
+.reservation-grid h2 {
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 3em;
+    color: #171A21;
+    padding: 20px 20px;
+    width: 100%;
+    grid-column: 1 / -1; 
+    grid-row: 1;
+}
+
+.rental-services {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    padding: 20px; 
+    background-color: #eee; 
+    border-radius: 6px; 
+    margin: 30px 0;
+    font-family: 'noto sans display';
+    border: solid 1px #333;
+}
+
+.rental-services h3 {
+    color: #171A21;
+    font-size: 2.5em;
+    padding: 20px;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+}
+
+.rental-services ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.rental-services ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    line-height: 1.6;
+    color: #171A21;
+    font-family: 'noto sans display', sans-serif;
+    font-size: 24px;
+}
+
+.rental-services img {
+    margin-right: 15px; 
+    width: 24px; 
+    width: 90px;
+    height: auto; 
+    background-color: #2F9BFF;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.rental-services span {
+    display: block; 
+}

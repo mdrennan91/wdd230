@@ -64,11 +64,102 @@
         <img src="images/cozumel-hero4.webp" alt="Cozumel Hero" id="hero-img1">
         <div class="hero-text">
             <h1>SECURE YOUR SCOOT</h1>
-            <p>YOUR SCOOTER TO ISLAND EXPLORATION AWAITS</p>
+            <p>ISLAND EXPLORATION AWAITS</p>
         </div>
     </div>
-    <main>
-       
+    <main class="reservation-grid">
+        <h2>MAKE A RESERVATION</h2>
+        <form method="get" action="thanks.html" class="wf1">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
+                <label>Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label>Country* <input type="text" name="country" required placeholder="Your country"></label>
+                <label>State/Province <input type="text" name="state_province" placeholder="Your state or province"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Reservation Details</legend>
+                <label>Reservation Date* <input type="date" name="reservation_date" required></label>
+                <label>Pick-up Time* <input type="time" name="pick_up_time" required></label>
+                <label>Pick-up Location
+                    <select name="pickup_location" required onchange="checkCustomLocation(this);">
+                        <option value="">Select a Location</option>
+                        <option value="Centro de Cozumel">Centro de Cozumel - 123 Marina Ave, El Centro, Cozumel, QR 77600</option>
+                        <option value="Puerta Maya Terminal">Puerta Maya Terminal - 456 South Beach Road, Puerta Maya, Cozumel, QR 77600</option>
+                        <option value="custom">Custom Pick-up Location</option>
+                    </select>
+                </label>
+                <div id="customLocationField" style="display:none;">
+                    <label>Custom Pick-up Location Details <input type="text" name="custom_pickup_location" placeholder="Enter custom pick-up location details"></label>
+                </div>
+                <label>Cruise Line (if applicable)
+                    <select name="cruise_line">
+                        <option value="">Select Cruise Line (Optional) &#9662;</option>
+                        <option value="Not Applicable">Not Applicable</option>
+                        <option value="Carnival">Carnival Cruise Line</option>
+                        <option value="Royal Caribbean">Royal Caribbean International</option>
+                        <option value="Norwegian">Norwegian Cruise Line</option>
+                        <option value="MSC">MSC Cruises</option>
+                        <option value="Disney">Disney Cruise Line</option>
+                        <option value="Princess">Princess Cruises</option>
+                        <option value="Celebrity">Celebrity Cruises</option>
+                        <option value="Holland America">Holland America Line</option>
+                    </select>
+                </label>
+                <label for="comments">Comments or Special Requests</label>
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Please enter any special accommodations, drop-off requests, or other comments here."></textarea>    
+                <label>Accept Terms & Conditions <br><br><input type="checkbox" name="accept_terms" required> I agree to the Terms and Conditions</label>
+                <input type="submit" value="Submit Reservation">
+            </fieldset>
+        </form>
+        <div class="rental-services">
+            <h3>Rental Services and Agreements</h3>
+            <hr>
+            <ul>
+                <li>
+                    <img src="images/deposit.png" alt="deposit-icon">
+                    <span>A $50 security deposit is required to confirm reservations.</span>
+                </li>
+                <li>
+                    <img src="images/license.png" alt="license-icon">
+                    <span>A valid driver's license is required in hand at the time of rental.</span>
+                </li>
+                <li>
+                    <img src="images/over12.png" alt="over12-icon">
+                    <span>No one under the age of 12 years of age are allowed to ride on the scooters.</span>
+                </li>
+                <li>
+                    <img src="images/fuel.png" alt="fuel-icon">
+                    <span>Fuel charge is not included.</span>
+                </li>
+                <li>
+                    <img src="images/unlimited.png" alt="unlimited-icon">
+                    <span>Unlimited mileage.</span>
+                </li>
+                <li>
+                    <img src="images/insurance.png" alt="insurance-icon">
+                    <span>Liability insurance is included.</span>
+                </li>
+                <li>
+                    <img src="images/damage.png" alt="damage-icon">
+                    <span>Damage insurance is available for purchase.</span>
+                </li>
+                <li>
+                    <img src="images/delivery.png" alt="delivery-icon">
+                    <span>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</span>
+                </li>
+                <li>
+                    <img src="images/payment.png" alt="payment-icon">
+                    <span>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or Venmo.</span>
+                </li>
+                <li>
+                    <img src="images/locations.png" alt="locations-icon">
+                    <span>Rentals may be returned to either physical location.</span>
+                </li>
+            </ul>
+        </div>
     </main>
     <hr>
     <footer>
@@ -95,5 +186,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/rentals.js"></script>
     <script src="scripts/prices.js"></script>
+    <script src="scripts/forms.js"></script>
 </body>
 </html>
