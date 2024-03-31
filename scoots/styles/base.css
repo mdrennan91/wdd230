@@ -559,3 +559,8 @@ td:nth-child(6) {
 .rental-services span {
     display: block; 
 }
+
+.scoots-intro h2 {
+    font-family: 'roboto', sans-serif;
+    font-size: 36px;
+}
