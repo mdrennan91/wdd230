@@ -1,0 +1,302 @@
+@media screen and (max-width: 600px) {
+    
+    header {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #ffffff;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+    
+    .logo a {
+        font-size: 1.7em;
+        font-family: 'Rock Salt', sans-serif;
+        color: #2F9BFF;
+        cursor: pointer;
+        text-decoration: none; 
+        display: inline-block; 
+    }
+    
+    .hamburger {
+        display: block;
+    }
+
+    #navbar { 
+        display: none;
+        width: 100%;
+    }
+
+    #navbar.open { 
+        display: block;
+    }
+
+    #navbar li { 
+        display: block;
+        margin: 0;
+    }
+
+    .social img {
+        width: 50%;
+        height: auto;
+        padding: 5px;
+        max-width: 45px;
+    }
+    
+    .social img:hover {
+        transition: all 0.0s ease 0s;
+        transform: scale(1);
+    }
+
+    .icon-row {
+        height: 70px;
+    }
+
+    .icon-row img {
+        max-width: 45px;
+        height: auto;
+    }
+
+    .icon-row span {
+        font-size: 12px;
+    }
+
+    a,button {
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'noto sans display', sans-serif;
+        color: #171A21;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    button {
+        background-color: #2F9BFF;
+        border: 2px solid #2F9BFF;
+        border-radius: 50px;
+        padding: 9px 25px;
+        margin: 10px;
+    }
+
+    .hero-text h1 {
+        font-family: 'roboto';
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    
+    .hero-text p {
+        font-family: 'noto sans display', sans-serif;
+        font-size: 1.2em;
+        margin-bottom: 50px;
+    }
+
+    .scoots-intro {
+        font-family: Arial, sans-serif;
+        color: #333;
+        line-height: 1.4;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .scoots-intro p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .home-grid h2 {
+        text-align: center;
+        font-family: 'roboto', sans-serif;
+        font-size: 1.6em;
+        color: #171A21;
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    #rentalOptions {
+        padding: 0;
+        display: block;
+    }
+
+    #rentalOptions h3 {
+        color: #171A21;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        box-sizing: border-box;
+        border-radius: 3px 3px 0;
+        font-size: 1.3em;
+        text-align: center;
+        font-family: 'noto sans display', sans-serif;
+    }
+    
+    #rentalOptions p {
+        color: #171A21;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        border-radius: 3px 3px 0;
+        font-size: 1.1em;
+        text-align: center;
+        font-family: 'noto sans display', sans-serif;
+    }
+
+    .info-grid {
+        padding: 0;
+        display: block;
+    }
+
+    .info-card {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .info-card img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .info-card h2 {
+        font-size: 1.6em;
+        margin-bottom: 10px;
+        color: #FFFFFF;
+    }
+
+    .info-card p {
+        font-size: 16px;
+        margin: 0px;
+    }
+
+    .footer-top, .footer-bottom {
+        flex-direction: column; 
+        padding: 10px 0;
+    }
+
+    .footer-addresses, .contact-info {
+        text-align: center; 
+        margin: 0;
+    }
+
+    .footer-bottom {
+        font-size: 20px; 
+    }
+
+    .footer-bottom span {
+        margin: 10px 0; 
+    }
+
+    .footer-addresses p, .contact-info p {
+        font-size: 16px; 
+        margin: 10px;
+        text-align: center;
+    }
+
+    #copyright {
+        margin: 0;
+    }
+    
+    #pricingSection h2 {
+        font-size: 30px;
+    }
+
+    .reservation-grid {
+        display: block;
+        margin: 10px;
+    }
+
+    .reservation-grid h2{
+        font-size: 30px;
+    }
+
+    .rental-services h3 {
+        font-size: 30px;
+    }
+
+    .rental-services span {
+        font-size: 18px;
+    }
+
+    .rental-services img {
+        max-width: 70px;
+        height: auto;
+    }
+
+    .contact-grid {
+        display: block;
+    }
+
+    .location-cards {
+        display: block;
+    }
+
+    .business-cards {
+        display: block;
+        padding: 0;
+    }
+    .business-card {
+        padding: 20px 10px;
+        margin: 20px 0;
+    }
+
+    .business-card img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .business-card h3 {
+        font-size: 1.6em;
+        margin-bottom: 10px;
+        color: #FFFFFF;
+    }
+
+    .business-card p {
+        font-size: 16px;
+        margin: 0px;
+    }
+
+    .contact-grid h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .location-cards {
+        padding: 0 15px;
+    }
+
+    .location-card {
+        border: none;
+    }
+
+    .location-card h3 {
+        font-size: 26px;
+    }
+
+    .location-card p {
+        font-size: 16px;
+    }
+
+    .map-card h3 {
+        font-size: 26px;
+    }
+
+    .map-card p {
+        font-size: 16px;
+    }
+
+    .map-card {
+        margin: 20px 0;
+        border: none;
+    }
+
+    .scoots-intro img {
+        max-width: 100px;
+        height: auto;
+    }
+
+
+}
