@@ -435,32 +435,51 @@ td:nth-child(6) {
     grid-row: 2;
 }
 
-.wf1 legend {
+.wf2 fieldset {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 600px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 0 10px 2% 2%;
+    font-family: 'noto sans display';
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.wf1 legend,
+.wf2 legend {
     color: #171A21;
     padding: 0 .5rem;
     font-size: 24px;
 }
 
-.wf1 label {
+.wf1 label,
+.wf2 label {
     display: block;
     padding-top: 1rem;
     color: #171A21;
     font-size: 16px;
 }
 
-.wf1 div {
+.wf1 div,
+.wf2 div {
     padding-top: 1rem;
     color: #445ba9;
     font-size: .9rem;
 }
 
 .wf1 input[type="text"],
+.wf2 input[type="text"],
 .wf1 input[type="email"],
+.wf2 input[type="email"],
 .wf1 input[type="tel"],
 .wf1 input[type="date"],
 .wf1 input[type="time"],
 .wf1 select,
-.wf1 textarea {
+.wf1 textarea,
+.wf2 textarea {
     background-color: #eee;
     display: block;
     border: solid 1px #999;
@@ -472,12 +491,13 @@ td:nth-child(6) {
     appearance: none;
 }
 
-.wf1 input[type="submit"] {
+.wf1 input[type="submit"],
+.wf2 input[type="submit"] {
     background-color: #2F9BFF;
     border: solid 1px #2F9BFF;
     border-radius: 50px;
     padding: 9px 25px;
-    margin: 10px;
+    margin: 30px 10px 10px 0;
     width: 96%;
     max-width: 400px;
     color: #171A21;
@@ -563,4 +583,114 @@ td:nth-child(6) {
 .scoots-intro h2 {
     font-family: 'roboto', sans-serif;
     font-size: 36px;
+}
+
+.business-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    background-color: #292F38;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.business-card {
+    font-family: 'noto sans display', sans-serif;
+    padding: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px;
+}
+
+.business-card h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.info-card p {
+    font-size: 1.1em;
+    margin: 0px;
+}
+
+.contact-grid h2 {
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 3em;
+    color: #171A21;
+    padding: 20px 20px;
+    margin: 10px 0 30px 0;
+}
+
+.location-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 50px 0 20px 0;
+}
+
+.location-card {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #555;
+    align-items: center;
+    text-align: center;
+}
+
+.location-card h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+}
+
+.location-card h4 {
+    font-size: 2em;
+    margin: 30px 0 20px 0;
+    color: #333;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+}
+
+.location-card p {
+    font-size: 24px;
+    margin: 0px;
+    font-family: 'noto sans display', sans-serif;
+}
+
+.location-card img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin: 30px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.map-card iframe {
+    max-width: 100%;
+    width: 750px;
+    height: 450px;
+    border: 0;
+    padding: 20px;
+    display: block; 
+    margin: auto;
+    
+}
+
+.map-card {
+    max-width: 100%;
+    width: 700px;
+    border: 1px solid #555;
+    display: block; 
+    margin: 40px auto;
+    padding: 20px 0 10px 0;
+}
+
+.map-card h3 {
+    font-size: 2em;
+    margin: 10px 20px 20px 20px;
+    color: #333;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
 }
