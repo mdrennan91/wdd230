@@ -71,6 +71,8 @@ nav li {
 .icon-row img {
     display: block;
     margin: 0;
+    max-width: 60px;
+    height: auto;
 }
 
 .icon-row span {
@@ -120,9 +122,9 @@ button:hover {
 }
 
 .social img {
-    opacity: 90%;
+    width: 100%;
+    height: auto;
     padding: 5px;
-    border-radius: 15px;
     max-width: 70px;
 }
 
@@ -243,8 +245,9 @@ button:hover {
 }
 
 .vehicle-card img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    aspect-ratio: 3 / 2;
 }
 
 .info-card {
@@ -267,6 +270,11 @@ button:hover {
     margin: 0px;
 }
 
+.info-card img {
+    max-width: 100%;
+    height: auto;
+}
+
 .info-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -276,7 +284,15 @@ button:hover {
 }
 
 #current-weather-icon {
-    max-width: 40px;
+    max-width: 100%;
+    width: 40px;
+    height: auto;
+}
+
+#forecast-icon {
+    max-width: 100%;
+    width: 40px;
+    height: auto;
 }
 
 footer {
@@ -607,9 +623,14 @@ td:nth-child(6) {
     color: #FFFFFF;
 }
 
-.info-card p {
+.business-card p {
     font-size: 1.1em;
     margin: 0px;
+}
+
+.business-card img {
+    max-width: 150px;
+    height: auto;
 }
 
 .contact-grid h2 {
@@ -633,6 +654,7 @@ td:nth-child(6) {
     margin: 10px;
     padding: 20px;
     border: 1px solid #555;
+    border-radius: 6px;
     align-items: center;
     text-align: center;
 }
@@ -682,6 +704,7 @@ td:nth-child(6) {
     max-width: 100%;
     width: 700px;
     border: 1px solid #555;
+    border-radius: 6px;
     display: block; 
     margin: 40px auto;
     padding: 20px 0 10px 0;

@@ -63,6 +63,11 @@ async function fetchCurrentWeather() {
       const iconUrl = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
       document.getElementById('current-weather-icon').src = iconUrl;
       document.getElementById('current-weather-icon').alt = data.weather[0].description;
+      const weatherIcon = document.getElementById('current-weather-icon');
+      weatherIcon.src = iconUrl;
+      weatherIcon.alt = data.weather[0].description;
+      weatherIcon.setAttribute('width', '40'); 
+      weatherIcon.setAttribute('height', '40'); 
     } catch (error) {
       console.error('Error fetching current weather data:', error);
     }

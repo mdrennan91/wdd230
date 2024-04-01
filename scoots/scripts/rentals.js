@@ -11,6 +11,8 @@ function displayRentals(rentals) {
         img.src = rental["Image URL"];
         img.alt = rental["Rental Type"];
         img.loading = "lazy";
+        img.setAttribute('width', '600'); 
+        img.setAttribute('height', '400');  
         container.appendChild(img);
 
         const type = document.createElement('h3');

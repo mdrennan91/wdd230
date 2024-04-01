@@ -16,10 +16,16 @@ function formatDateTime(dateTimeString) {
 
 function updateFooter() {
     const currentYear = new Date().getFullYear();
-    document.getElementById('currentYear').textContent = currentYear;
+    const currentYearElement = document.getElementById('currentYear');
+    if (currentYearElement) {
+        currentYearElement.textContent = currentYear;
+    }
 
-    const lastModifiedFormatted = formatDateTime(document.lastModified);
-    document.getElementById('lastModified').textContent = `Last Modified: ${lastModifiedFormatted}`;
+    const lastModifiedElement = document.getElementById('lastModified');
+    if (lastModifiedElement) {
+        const lastModifiedFormatted = formatDateTime(document.lastModified);
+        lastModifiedElement.textContent = `Last Modified: ${lastModifiedFormatted}`;
+    }
 }
 
 window.onload = updateFooter;
