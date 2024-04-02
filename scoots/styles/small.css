@@ -342,9 +342,8 @@
         transform: translateY(-50%);
         font-weight: bold;
         width: 45%; 
-        overflow: hidden;
+        overflow:visible ;
         text-overflow: ellipsis; 
         white-space: nowrap; 
     }
-
 }
