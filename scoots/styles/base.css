@@ -264,7 +264,7 @@ button:hover {
 
 .vehicle-card img:hover {
     transition: all 0.4s ease 0s;
-    transform: scale(1.1);;
+    transform: scale(1.1);
 }
 
 .info-card {

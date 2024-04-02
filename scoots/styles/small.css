@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 
     header {
         width: 100%;
@@ -50,16 +50,16 @@
     }
 
     .icon-row {
-        height: 80px;
+        height: 90px;
     }
 
-    .icon-row img {
+    /* .icon-row img {
         max-width: 45px;
         height: auto;
-    }
+    } */
 
     .icon-row span {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     a,button {
@@ -142,6 +142,11 @@
         font-size: 1.1em;
         text-align: center;
         font-family: 'noto sans display', sans-serif;
+    }
+
+    .vehicle-card img:hover {
+        transition: all 0.0s ease 0s;
+        transform: scale(1);
     }
 
     .info-grid {
