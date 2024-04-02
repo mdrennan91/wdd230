@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) {
-    
+
     header {
         width: 100%;
         height: 70px;
@@ -12,30 +12,30 @@
         left: 0;
         z-index: 10;
     }
-    
+
     .logo a {
         font-size: 1.7em;
         font-family: 'Rock Salt', sans-serif;
         color: #2F9BFF;
         cursor: pointer;
-        text-decoration: none; 
-        display: inline-block; 
+        text-decoration: none;
+        display: inline-block;
     }
-    
+
     .hamburger {
         display: block;
     }
 
-    #navbar { 
+    #navbar {
         display: none;
         width: 100%;
     }
 
-    #navbar.open { 
+    #navbar.open {
         display: block;
     }
 
-    #navbar li { 
+    #navbar li {
         display: block;
         margin: 0;
     }
@@ -46,7 +46,7 @@
         padding: 5px;
         max-width: 45px;
     }
-    
+
     .social img:hover {
         transition: all 0.0s ease 0s;
         transform: scale(1);
@@ -73,7 +73,7 @@
         text-decoration: none;
         cursor: pointer;
     }
-    
+
     button {
         background-color: #2F9BFF;
         border: 2px solid #2F9BFF;
@@ -87,7 +87,7 @@
         font-size: 3em;
         margin-bottom: 20px;
     }
-    
+
     .hero-text p {
         font-family: 'noto sans display', sans-serif;
         font-size: 1.2em;
@@ -103,7 +103,7 @@
         padding: 20px;
         text-align: center;
     }
-    
+
     .scoots-intro p {
         font-size: 16px;
         margin-bottom: 0;
@@ -134,7 +134,7 @@
         text-align: center;
         font-family: 'noto sans display', sans-serif;
     }
-    
+
     #rentalOptions p {
         color: #171A21;
         padding: 0;
@@ -173,25 +173,25 @@
     }
 
     .footer-top, .footer-bottom {
-        flex-direction: column; 
+        flex-direction: column;
         padding: 10px 0;
     }
 
     .footer-addresses, .contact-info {
-        text-align: center; 
+        text-align: center;
         margin: 0;
     }
 
     .footer-bottom {
-        font-size: 20px; 
+        font-size: 20px;
     }
 
     .footer-bottom span {
-        margin: 10px 0; 
+        margin: 10px 0;
     }
 
     .footer-addresses p, .contact-info p {
-        font-size: 16px; 
+        font-size: 16px;
         margin: 10px;
         text-align: center;
     }
@@ -199,7 +199,7 @@
     #copyright {
         margin: 0;
     }
-    
+
     #pricingSection h2 {
         font-size: 30px;
     }
@@ -298,5 +298,53 @@
         height: auto;
     }
 
+    #pricingSection {
+        padding: 0 10px; 
+    }
+
+    #pricingTable {
+        width: auto; 
+        margin: 0; 
+    }
+
+    #pricingTable, #pricingTable thead, #pricingTable tbody, #pricingTable th, #pricingTable td, #pricingTable tr {
+        display: block;
+        width: 100%;
+    }
+
+    #pricingTable thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #pricingTable tr {
+        border: 1px solid #ddd;
+        margin-bottom: 5px; 
+       
+        padding: 10px 0;
+    }
+
+    #pricingTable td {
+        border: none;
+        position: relative;
+        padding-left: 60%; 
+        text-align: center; 
+        box-sizing: border-box; 
+        min-height: 50px;
+    }
+
+    #pricingTable td:before {
+        content: attr(data-title);
+        position: absolute;
+        left: 10px;
+        top: 50%; 
+        transform: translateY(-50%);
+        font-weight: bold;
+        width: 45%; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        white-space: nowrap; 
+    }
 
 }
