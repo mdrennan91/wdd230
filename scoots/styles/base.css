@@ -56,10 +56,10 @@ nav li {
     align-items: center;
 }
 
-#hamburger {
+/* #hamburger {
     display: none;
     cursor: pointer;
-}
+} */
 
 .icon-row {
     width: 100%;
@@ -456,7 +456,6 @@ td:nth-child(6) {
     padding: 20px 20px;
 }
 
-
 /* reservation form */
 .wf1 fieldset {
     margin: 20px 0;
@@ -714,7 +713,6 @@ td:nth-child(6) {
     padding: 20px;
     display: block; 
     margin: auto;
-    
 }
 
 .map-card {

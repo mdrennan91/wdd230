@@ -14,7 +14,7 @@
     }
 
     .logo a {
-        font-size: 1.7em;
+        font-size: 2em;
         font-family: 'Rock Salt', sans-serif;
         color: #2F9BFF;
         cursor: pointer;
@@ -23,24 +23,21 @@
     }
 
 
-    #navbar {
-        display: none;
-        width: 100%;
-    }
-
-    #navbar.open {
-        display: block;
-    }
-
     #navbar li {
         display: block;
         margin: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    #navbar li a {
+        font-size: 18px;
     }
 
     .social img {
         width: 50%;
         height: auto;
-        padding: 5px;
+        padding: 2px;
         max-width: 45px;
     }
 
@@ -52,11 +49,6 @@
     .icon-row {
         height: 90px;
     }
-
-    /* .icon-row img {
-        max-width: 45px;
-        height: auto;
-    } */
 
     .icon-row span {
         font-size: 14px;
@@ -324,7 +316,6 @@
     #pricingTable tr {
         border: 1px solid #ddd;
         margin-bottom: 5px; 
-       
         padding: 10px 0;
     }
 
