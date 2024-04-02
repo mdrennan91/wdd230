@@ -24,7 +24,6 @@
             </a>
         </div>
         <nav>
-            <div id="hamburger">☰</div>
             <ul id="navbar">
                 <li><a class="active" href="#">HOME</a></li>
                 <li><a href="https://mdrennan91.github.io/wdd230/scoots/rentals.html">RENTALS</a></li>
@@ -66,7 +65,11 @@
     </div>
     <div id="weatherBanner"></div>
     <div class="hero-image">
-        <img src="images/cozumel_hero2.webp" alt="Cozumel Hero" id="hero-img">
+        <picture>
+            <source srcset="images/home-hero-small.webp" media="(max-width: 600px)">
+            <source srcset="images/home-hero-medium.webp" media="(max-width: 1000px)">
+            <img src="images/home-hero-large.webp" alt="Cozumel Hero" width="1500" height="750" id="hero-img">
+        </picture>
         <div class="hero-text">
             <h1>EXPLORE COZUMEL</h1>
             <p>ELEVATE YOUR ISLAND JOURNEY WITH A STYLISH SCOOT</p>

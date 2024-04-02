@@ -2,7 +2,7 @@
 
     header {
         width: 100%;
-        height: 70px;
+        height: 100px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -22,9 +22,6 @@
         display: inline-block;
     }
 
-    .hamburger {
-        display: block;
-    }
 
     #navbar {
         display: none;
@@ -53,7 +50,7 @@
     }
 
     .icon-row {
-        height: 70px;
+        height: 80px;
     }
 
     .icon-row img {
@@ -86,6 +83,7 @@
         font-family: 'roboto';
         font-size: 3em;
         margin-bottom: 20px;
+        white-space: nowrap;
     }
 
     .hero-text p {
