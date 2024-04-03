@@ -1,0 +1,194 @@
+@media screen and (min-width: 1021px) and (max-width: 1220px) {
+    
+    header {
+        padding: 10px 20px;
+    }
+
+    .hero-text h1 {
+        font-family: 'roboto';
+        font-size: 4em;
+        margin-bottom: 20px;
+        white-space: nowrap;
+    }
+
+    .hero-text p {
+        font-family: 'noto sans display', sans-serif;
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+
+    #pricingSection h2 {
+        font-size: 2em;
+    }
+
+    #pricingTable {
+        width: auto; 
+        margin: 20px auto; 
+    }
+
+    .rental-services img {
+        max-width: 60px;
+    }
+
+    .rental-services span {
+        font-size: 20px;
+    }
+
+    .rental-services h3 {
+        font-size: 26px;
+    }
+
+    .reservation-grid h2 {
+        font-size: 2em;
+        padding: 0;
+    }
+
+
+}
+
+
+@media screen and (min-width: 881px) and (max-width: 1020px) {
+    
+    header {
+        padding: 10px 20px;
+    }
+
+    .hero-text h1 {
+        font-family: 'roboto';
+        font-size: 4em;
+        margin-bottom: 20px;
+        white-space: nowrap;
+    }
+
+    .hero-text p {
+        font-family: 'noto sans display', sans-serif;
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+
+    .social img {
+        width: 50%;
+        height: auto;
+        padding: 2px;
+        max-width: 55px;
+    }
+
+    .logo a {
+        font-size: 30px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    #pricingSection h2 {
+        font-size: 2em;
+    }
+
+    #pricingTable {
+        width: auto; 
+        margin: 20px auto; 
+    }
+
+    #pricingSection h2 {
+        font-size: 2em;
+    }
+
+    #pricingTable {
+        width: auto; 
+        margin: 20px auto; 
+    }
+
+    .rental-services img {
+        max-width: 60px;
+    }
+
+    .rental-services span {
+        font-size: 20px;
+    }
+
+    .rental-services h3 {
+        font-size: 26px;
+    }
+
+    .reservation-grid h2 {
+        font-size: 2em;
+        padding: 0;
+    }
+
+    .reservation-grid {
+        display: block;
+        margin: 10px;
+    }
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 880px) {
+    
+
+    header {
+        padding: 10px 20px;
+    }
+
+    #navbar li {
+        display: block;
+        margin: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    .logo a {
+        font-size: 26px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .social img {
+        width: 50%;
+        height: auto;
+        padding: 2px;
+        max-width: 45px;
+    }
+
+    .hero-text h1 {
+        font-family: 'roboto';
+        font-size: 4em;
+        margin-bottom: 20px;
+        white-space: nowrap;
+    }
+
+    .hero-text p {
+        font-family: 'noto sans display', sans-serif;
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+
+    #pricingSection h2 {
+        font-size: 2em;
+    }
+
+    #pricingTable {
+        width: auto; 
+        margin: 20px auto; 
+    }
+
+    .rental-services img {
+        max-width: 60px;
+    }
+
+    .rental-services span {
+        font-size: 20px;
+    }
+
+    .rental-services h3 {
+        font-size: 26px;
+    }
+
+    .reservation-grid h2 {
+        font-size: 2em;
+        padding: 0;
+    }
+
+    .reservation-grid {
+        display: block;
+        margin: 10px;
+    }
+}
