@@ -263,12 +263,43 @@
         width: 100%;
     }
 
+    .business-cards {
+        padding: 0;
+    }
+
+    .business-card {
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    .business-card img {
+        max-width: 100px;
+    }
+
     .navbar {
         flex-direction: column;
         margin-top: 210px;
         z-index: 9999;
         width: 200px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .map-card {
+        border: 0;
+    }
+
+    .map-card h3 {
+        font-size: 28px;
+    }
+
+    .location-card h3 {
+        font-size: 28px;
+    }
+
+    .contact-grid h2 {
+        font-size: 34px;
+        margin: 0;
+        padding: 20px 0 0 0;
     }
 
     .navbar-links ul {
