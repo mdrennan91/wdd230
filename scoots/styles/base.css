@@ -44,23 +44,6 @@ header {
     justify-content: center;
 }
 
-/* nav ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-nav li {
-    display: inline-block;
-    list-style: none;
-    padding: 0px 20px;
-    align-items: center;
-} */
-
-/* #hamburger {
-    display: none;
-    cursor: pointer;
-} */
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -177,10 +160,9 @@ button:hover {
 }
 
 .social img {
-    width: 100%;
+    width: 70px;
     height: auto;
     padding: 5px;
-    max-width: 70px;
 }
 
 .social img:hover {

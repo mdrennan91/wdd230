@@ -402,10 +402,9 @@
     }
 
     .social img {
-        max-width: 30px;
         height: auto;
         padding: 2px;
-        max-width: 40px;
+        width: 30px;
     }
 
     .toggle-button {
