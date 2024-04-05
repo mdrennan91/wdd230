@@ -378,6 +378,11 @@
     .contact-grid fieldset {
         margin: 0;
     }
+
+    .icon-row img:hover {
+        transition: all 0.0s ease 0s;
+        transform: scale(1);
+    }
 }
 
 @media screen and (max-width: 410px) {
@@ -760,6 +765,11 @@
 
     form.wf2 {
         margin: 10px
+    }
+
+    .icon-row img:hover {
+        transition: all 0.0s ease 0s;
+        transform: scale(1);
     }
 
 }

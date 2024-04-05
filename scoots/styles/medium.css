@@ -346,4 +346,9 @@
     #copyright {
         margin: 0;
     }
+
+    .icon-row img:hover {
+        transition: all 0.0s ease 0s;
+        transform: scale(1);
+    }
 }

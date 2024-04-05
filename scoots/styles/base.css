@@ -113,6 +113,11 @@ header {
     height: auto;
 }
 
+.icon-row img:hover {
+    transition: all 0.4s ease 0s;
+    transform: scale(1.1);
+}
+
 .icon-row span {
     color: #333;
     display: block;
